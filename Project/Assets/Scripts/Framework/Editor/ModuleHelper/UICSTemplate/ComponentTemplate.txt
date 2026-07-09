@@ -1,0 +1,32 @@
+using Framework.Runtime.UI;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Framework.Runtime.Modules.UI.PrefabBind;
+using Framework.Runtime.MAsset;
+using Framework.Runtime.Config;
+namespace Game.Modules
+{
+    public class $NAME : DisplayUnit
+    {
+        #region PrefabBinder 自动引用区域 开始
+        #endregion PrefabBinder 自动引用区域 结束
+
+        protected override void AutoExtractPrefabBinderComponent(PrefabBinder prefabBinder)
+        {
+
+        }
+
+        public override int GetOpenLayer(int externalLayer)
+        {
+            return externalLayer;
+        }
+
+        public override string GetAssetLink(string outAssetLink)
+        {
+			return outAssetLink;
+		}
+        
+    }
+
+}

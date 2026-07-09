@@ -1,0 +1,19 @@
+﻿{
+	"exportType": "csharpjson",
+	"exportFormatType": 1,
+	"exportTemplatePath": "LuaExportTemplate.txt",
+	"exportSheetList": [
+		{
+			"sheetName": "音效表",
+			"exportField": "audiosCfg",
+			"exportPath": "cfg_audio.json",
+			"commentRowList": [
+				2
+			],
+			"typeRow": 3,
+			"keyRow": 4,
+			"dataRowBegin": 5,
+			"luaExportConfig": {}
+		}		
+	]
+}

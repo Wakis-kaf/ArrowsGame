@@ -1,0 +1,118 @@
+
+baoan.png
+size: 677,313
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoan_body
+  rotate: true
+  xy: 180, 9
+  size: 131, 153
+  orig: 131, 153
+  offset: 0, 0
+  index: -1
+baoan_body1
+  rotate: true
+  xy: 335, 9
+  size: 131, 153
+  orig: 131, 153
+  offset: 0, 0
+  index: -1
+baoan_hand1
+  rotate: true
+  xy: 578, 132
+  size: 62, 86
+  orig: 62, 86
+  offset: 0, 0
+  index: -1
+baoan_hand11
+  rotate: false
+  xy: 530, 44
+  size: 62, 86
+  orig: 62, 86
+  offset: 0, 0
+  index: -1
+baoan_hand2
+  rotate: true
+  xy: 594, 67
+  size: 63, 81
+  orig: 63, 81
+  offset: 0, 0
+  index: -1
+baoan_hand21
+  rotate: true
+  xy: 594, 2
+  size: 63, 81
+  orig: 63, 81
+  offset: 0, 0
+  index: -1
+baoan_hand3
+  rotate: false
+  xy: 2, 7
+  size: 87, 133
+  orig: 87, 133
+  offset: 0, 0
+  index: -1
+baoan_hand31
+  rotate: false
+  xy: 91, 7
+  size: 87, 133
+  orig: 87, 133
+  offset: 0, 0
+  index: -1
+baoan_hand4
+  rotate: true
+  xy: 501, 178
+  size: 93, 75
+  orig: 93, 75
+  offset: 0, 0
+  index: -1
+baoan_hand41
+  rotate: false
+  xy: 578, 196
+  size: 93, 75
+  orig: 93, 75
+  offset: 0, 0
+  index: -1
+baoan_head
+  rotate: false
+  xy: 2, 142
+  size: 165, 169
+  orig: 165, 169
+  offset: 0, 0
+  index: -1
+baoan_head1
+  rotate: false
+  xy: 169, 142
+  size: 165, 169
+  orig: 165, 169
+  offset: 0, 0
+  index: -1
+baoan_lingdai
+  rotate: false
+  xy: 490, 25
+  size: 38, 118
+  orig: 38, 118
+  offset: 0, 0
+  index: -1
+baoan_lingdai1
+  rotate: true
+  xy: 530, 273
+  size: 38, 118
+  orig: 38, 118
+  offset: 0, 0
+  index: -1
+baoan_tui1
+  rotate: false
+  xy: 336, 144
+  size: 76, 167
+  orig: 76, 167
+  offset: 0, 0
+  index: -1
+baoan_tui2
+  rotate: false
+  xy: 414, 145
+  size: 85, 166
+  orig: 85, 166
+  offset: 0, 0
+  index: -1

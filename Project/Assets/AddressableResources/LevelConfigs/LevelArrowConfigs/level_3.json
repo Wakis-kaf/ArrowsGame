@@ -1,0 +1,446 @@
+
+{
+    "arrowNodes" : [
+        {
+            "__m_Id" : 0,
+            "__m_OccupiedPointIndexs" : [
+                {
+                    "x" : 3,
+                    "y" : 3,
+                    "z" : 0
+                },
+                {
+                    "x" : 2,
+                    "y" : 3,
+                    "z" : 0
+                },
+                {
+                    "x" : 2,
+                    "y" : 4,
+                    "z" : 0
+                },
+                {
+                    "x" : 3,
+                    "y" : 4,
+                    "z" : 0
+                }
+            ],
+            "__m_MoveDirection"       : {
+                "x" : 1.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "__m_PathPoints"          : [
+                {
+                    "x" : 3.0,
+                    "y" : 3.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 2.0,
+                    "y" : 3.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 2.0,
+                    "y" : 4.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 3.0,
+                    "y" : 4.0,
+                    "z" : 0.0
+                }
+            ],
+            "__m_IsHasSolveDeep"      : true
+        },
+        {
+            "__m_Id" : 1,
+            "__m_OccupiedPointIndexs" : [
+                {
+                    "x" : 3,
+                    "y" : 1,
+                    "z" : 0
+                },
+                {
+                    "x" : 2,
+                    "y" : 1,
+                    "z" : 0
+                },
+                {
+                    "x" : 2,
+                    "y" : 2,
+                    "z" : 0
+                },
+                {
+                    "x" : 3,
+                    "y" : 2,
+                    "z" : 0
+                }
+            ],
+            "__m_MoveDirection"       : {
+                "x" : 1.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "__m_PathPoints"          : [
+                {
+                    "x" : 3.0,
+                    "y" : 1.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 2.0,
+                    "y" : 1.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 2.0,
+                    "y" : 2.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 3.0,
+                    "y" : 2.0,
+                    "z" : 0.0
+                }
+            ],
+            "__m_IsHasSolveDeep"      : true
+        },
+        {
+            "__m_Id" : 2,
+            "__m_OccupiedPointIndexs" : [
+                {
+                    "x" : 0,
+                    "y" : 2,
+                    "z" : 0
+                },
+                {
+                    "x" : 0,
+                    "y" : 3,
+                    "z" : 0
+                },
+                {
+                    "x" : 0,
+                    "y" : 4,
+                    "z" : 0
+                },
+                {
+                    "x" : 1,
+                    "y" : 4,
+                    "z" : 0
+                },
+                {
+                    "x" : 1,
+                    "y" : 3,
+                    "z" : 0
+                }
+            ],
+            "__m_MoveDirection"       : {
+                "x" : 0.0,
+                "y" : -1.0,
+                "z" : 0.0
+            },
+            "__m_PathPoints"          : [
+                {
+                    "x" : 0.0,
+                    "y" : 2.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 0.0,
+                    "y" : 3.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 0.0,
+                    "y" : 4.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 1.0,
+                    "y" : 4.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 1.0,
+                    "y" : 3.0,
+                    "z" : 0.0
+                }
+            ],
+            "__m_IsHasSolveDeep"      : true
+        },
+        {
+            "__m_Id" : 3,
+            "__m_OccupiedPointIndexs" : [
+                {
+                    "x" : 2,
+                    "y" : 5,
+                    "z" : 0
+                },
+                {
+                    "x" : 3,
+                    "y" : 5,
+                    "z" : 0
+                },
+                {
+                    "x" : 3,
+                    "y" : 6,
+                    "z" : 0
+                },
+                {
+                    "x" : 2,
+                    "y" : 6,
+                    "z" : 0
+                }
+            ],
+            "__m_MoveDirection"       : {
+                "x" : -1.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "__m_PathPoints"          : [
+                {
+                    "x" : 2.0,
+                    "y" : 5.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 3.0,
+                    "y" : 5.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 3.0,
+                    "y" : 6.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 2.0,
+                    "y" : 6.0,
+                    "z" : 0.0
+                }
+            ],
+            "__m_IsHasSolveDeep"      : true
+        },
+        {
+            "__m_Id" : 4,
+            "__m_OccupiedPointIndexs" : [
+                {
+                    "x" : 1,
+                    "y" : 2,
+                    "z" : 0
+                },
+                {
+                    "x" : 1,
+                    "y" : 1,
+                    "z" : 0
+                },
+                {
+                    "x" : 0,
+                    "y" : 1,
+                    "z" : 0
+                },
+                {
+                    "x" : 0,
+                    "y" : 0,
+                    "z" : 0
+                }
+            ],
+            "__m_MoveDirection"       : {
+                "x" : 0.0,
+                "y" : -1.0,
+                "z" : 0.0
+            },
+            "__m_PathPoints"          : [
+                {
+                    "x" : 1.0,
+                    "y" : 2.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 1.0,
+                    "y" : 1.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 0.0,
+                    "y" : 1.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            ],
+            "__m_IsHasSolveDeep"      : true
+        },
+        {
+            "__m_Id" : 5,
+            "__m_OccupiedPointIndexs" : [
+                {
+                    "x" : 3,
+                    "y" : 0,
+                    "z" : 0
+                },
+                {
+                    "x" : 2,
+                    "y" : 0,
+                    "z" : 0
+                },
+                {
+                    "x" : 1,
+                    "y" : 0,
+                    "z" : 0
+                }
+            ],
+            "__m_MoveDirection"       : {
+                "x" : -1.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "__m_PathPoints"          : [
+                {
+                    "x" : 3.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 2.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 1.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            ],
+            "__m_IsHasSolveDeep"      : true
+        },
+        {
+            "__m_Id" : 6,
+            "__m_OccupiedPointIndexs" : [
+                {
+                    "x" : 3,
+                    "y" : 7,
+                    "z" : 0
+                },
+                {
+                    "x" : 2,
+                    "y" : 7,
+                    "z" : 0
+                },
+                {
+                    "x" : 1,
+                    "y" : 7,
+                    "z" : 0
+                },
+                {
+                    "x" : 1,
+                    "y" : 6,
+                    "z" : 0
+                },
+                {
+                    "x" : 1,
+                    "y" : 5,
+                    "z" : 0
+                }
+            ],
+            "__m_MoveDirection"       : {
+                "x" : 0.0,
+                "y" : -1.0,
+                "z" : 0.0
+            },
+            "__m_PathPoints"          : [
+                {
+                    "x" : 3.0,
+                    "y" : 7.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 2.0,
+                    "y" : 7.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 1.0,
+                    "y" : 7.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 1.0,
+                    "y" : 6.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 1.0,
+                    "y" : 5.0,
+                    "z" : 0.0
+                }
+            ],
+            "__m_IsHasSolveDeep"      : true
+        },
+        {
+            "__m_Id" : 7,
+            "__m_OccupiedPointIndexs" : [
+                {
+                    "x" : 0,
+                    "y" : 5,
+                    "z" : 0
+                },
+                {
+                    "x" : 0,
+                    "y" : 6,
+                    "z" : 0
+                },
+                {
+                    "x" : 0,
+                    "y" : 7,
+                    "z" : 0
+                }
+            ],
+            "__m_MoveDirection"       : {
+                "x" : 0.0,
+                "y" : 1.0,
+                "z" : 0.0
+            },
+            "__m_PathPoints"          : [
+                {
+                    "x" : 0.0,
+                    "y" : 5.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 0.0,
+                    "y" : 6.0,
+                    "z" : 0.0
+                },
+                {
+                    "x" : 0.0,
+                    "y" : 7.0,
+                    "z" : 0.0
+                }
+            ],
+            "__m_IsHasSolveDeep"      : true
+        }
+    ],
+    "presureArg" : {
+        "presureArgId" : 0,
+        "maxAllowGenerateTime" : 5,
+        "minLineLength"        : 3,
+        "normalLineLength"     : 3,
+        "maxLineLength"        : 3,
+        "turnTendency"         : 1,
+        "maxTurnsPerLine"      : 3,
+        "mainLineGenerateMaxRetractNum" : 10,
+        "emptyReGenerateMaxRetractNum"  : 10,
+        "retractFromTurn"               : true,
+        "tryMaxLength"                  : true,
+        "isEnableRootTraceHead"         : false,
+        "customSeed"                    : 2057263555,
+        "runtimeSeed"                   : 958381758,
+        "isUsingCustomSeed"             : false
+    }
+}

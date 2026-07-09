@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="FrameworkCommon">
+    <type fullname="Framework.Utils.Utility" preserve="all" />
+    <type fullname="Framework.Utils.Utility/Json" preserve="all" />
+  </assembly>
+  <assembly fullname="FrameworkRuntime">
+    <type fullname="Framework.Runtime.GameApplication" preserve="all" />
+    <type fullname="Framework.Runtime.LogSystem.Log" preserve="all" />
+    <type fullname="Framework.Runtime.MAsset.AssetManager" preserve="all" />
+    <type fullname="Framework.Runtime.MAsset.AssetPathEncoder" preserve="all" />
+    <type fullname="Framework.Runtime.MAsset.AssetType" preserve="all" />
+    <type fullname="Framework.Runtime.MAsset.IAssetVO" preserve="all" />
+    <type fullname="Framework.Runtime.MGameModule.GameModuleDataHandler" preserve="all" />
+    <type fullname="Framework.Runtime.MGameModule.GameModuleLogicHandler" preserve="all" />
+    <type fullname="Framework.Runtime.MGameModule.GameModuleManager" preserve="all" />
+    <type fullname="Framework.Runtime.MGameModule.GameModuleServerHandler" preserve="all" />
+    <type fullname="Framework.Runtime.MGameModule.GameModuleViewHandler" preserve="all" />
+    <type fullname="Framework.Runtime.Modules.UI.PrefabBind.PrefabBinder" preserve="all" />
+    <type fullname="Framework.Runtime.UI.Panel" preserve="all" />
+    <type fullname="Framework.Runtime.UI.PannelManager" preserve="all" />
+    <type fullname="Framework.Runtime.UI.USprite" preserve="all" />
+    <type fullname="Framework.Runtime.UnitSystem.Base.SingletonBehaviourUnit`1" preserve="all" />
+    <type fullname="Game.Modules.GameModuleBase" preserve="all" />
+  </assembly>
+  <assembly fullname="System">
+    <type fullname="System.CodeDom.Compiler.GeneratedCodeAttribute" preserve="all" />
+    <type fullname="System.ComponentModel.EditorBrowsableAttribute" preserve="all" />
+    <type fullname="System.ComponentModel.EditorBrowsableState" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule">
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+  </assembly>
+  <assembly fullname="mscorlib">
+    <type fullname="System.Action`1" preserve="all" />
+    <type fullname="System.Array" preserve="all" />
+    <type fullname="System.Byte" preserve="all" />
+    <type fullname="System.Collections.Generic.Dictionary`2" preserve="all" />
+    <type fullname="System.Collections.Generic.List`1" preserve="all" />
+    <type fullname="System.Diagnostics.DebuggableAttribute" preserve="all" />
+    <type fullname="System.Diagnostics.DebuggableAttribute/DebuggingModes" preserve="all" />
+    <type fullname="System.Object" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.CompilerGeneratedAttribute" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.RuntimeHelpers" preserve="all" />
+    <type fullname="System.RuntimeFieldHandle" preserve="all" />
+    <type fullname="System.RuntimeTypeHandle" preserve="all" />
+    <type fullname="System.String" preserve="all" />
+    <type fullname="System.Type" preserve="all" />
+    <type fullname="System.ValueType" preserve="all" />
+  </assembly>
+</linker>

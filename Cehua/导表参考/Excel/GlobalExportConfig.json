@@ -1,0 +1,12 @@
+﻿{
+	"globalExportList": [],
+	"singleExportList": [
+		{
+			"excelPath": "参考表.xlsx",
+			"exportChannelList": [
+				{
+					"exportConfigPath": "参考表_export_client.json"
+				}
+			]
+		}]
+}

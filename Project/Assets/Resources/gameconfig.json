@@ -1,0 +1,40 @@
+{
+    "isDebugMode": false,
+    "plafromtDir": "",
+    "enableSDK": true,
+    "enableUrlStamptime": true,
+    "cdnList": [],
+    "logConfig": {
+        "isReceiveUnityLog": true,
+        "logQueueCapacity": 1000,
+        "logCacheQueueCount": 100,
+        "logEnableLevel": -1,
+        "logEnablePrintLevel": -1,
+        "logEnableWriteLevel": -1,
+        "logEnablePrintTimeLevel": 48,
+        "logEnablePrintTrackLevel": 48,
+        "logMsgFilter": [],
+        "clearOldLog": true,
+        "logFileMaxCount": 20,
+        "saveLogOnlyCurrent": true,
+        "logWriteDirPath": "GameLogs/",
+        "saveDirPath": 0
+    },
+    "luaConfig": {
+        "enableLua": true,
+        "readLuaFromAB": true,
+        "luaResDir": "luascripts",
+        "entryLua": "GameMain"
+    },
+    "resourcesConfig": {
+        "isCopyFirstResToLocal": true,
+        "isSkipResNewest": false,
+        "canReadResFromEditor": false,
+        "canReadResFromAB": true,
+        "canReadResFromResources": true,
+        "resOutPutPath": ""
+    },
+    "debuggerConfig": {
+        "isForceShowDebugger": false
+    }
+}

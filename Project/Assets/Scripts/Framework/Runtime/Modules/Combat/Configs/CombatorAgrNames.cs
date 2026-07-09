@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Framework.Runtime.MCombat
+{
+    public static class CombatorAgrNames
+    {
+        public const string OwnSceneUnit = "OwnSceneUnit";
+    }
+}

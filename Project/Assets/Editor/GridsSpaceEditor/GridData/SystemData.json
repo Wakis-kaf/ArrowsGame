@@ -1,0 +1,98 @@
+{
+    "GridTypes": [
+        "IN_PORT_A",
+        "IN_PORT_B",
+        "IN_PORT_C",
+        "OUT_PORT_A",
+        "OUT_PORT_B",
+        "OUT_PORT_C"
+    ],
+    "Templates": [
+        {
+            "Name": "IN_PORT_A",
+            "Type": "IN_PORT_A",
+            "Description": "",
+            "Coordinates": {
+                "x": 0,
+                "y": 0
+            },
+            "Ports": []
+        },
+        {
+            "Name": "IN_PORT_B",
+            "Type": "IN_PORT_B",
+            "Description": "",
+            "Coordinates": {
+                "x": 0,
+                "y": 0
+            },
+            "Ports": []
+        },
+        {
+            "Name": "IN_PORT_C",
+            "Type": "IN_PORT_C",
+            "Description": "",
+            "Coordinates": {
+                "x": 0,
+                "y": 0
+            },
+            "Ports": []
+        },
+        {
+            "Name": "OUT_PORT_A",
+            "Type": "OUT_PORT_A",
+            "Description": "",
+            "Coordinates": {
+                "x": 0,
+                "y": 0
+            },
+            "Ports": []
+        },
+        {
+            "Name": "OUT_PORT_B",
+            "Type": "OUT_PORT_B",
+            "Description": "",
+            "Coordinates": {
+                "x": 0,
+                "y": 0
+            },
+            "Ports": []
+        },
+        {
+            "Name": "OUT_PORT_C",
+            "Type": "OUT_PORT_C",
+            "Description": "",
+            "Coordinates": {
+                "x": 0,
+                "y": 0
+            },
+            "Ports": []
+        }
+    ],
+    "TypeLocks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "TemplateLocks": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "ExportFolderPath": "Assets/Editor/GridsSpaceEditor/Export/",
+    "LastExportPath": "D:\\创业\\独立游戏开发\\ModuleRogulike\\Project\\Assets\\AddressableResources\\Configs\\CircuitSystem\\BoxSpace",
+    "LastImportPath": "D:\\创业\\独立游戏开发\\ModuleRogulike\\Project\\Assets\\AddressableResources\\Configs\\CircuitSystem\\BoxSpace",
+    "CenterAlignment": true,
+    "ShowAllPortsInGridEdit": false,
+    "ShowPortLabels": true,
+    "PortLabelFontSize": 3,
+    "PortLibrary": {
+        "Templates": []
+    }
+}

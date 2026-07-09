@@ -1,0 +1,43 @@
+﻿{
+	"exportType": "csharpjson",
+	"exportFormatType": 1,
+	"exportTemplatePath": "LuaExportTemplate.txt",
+	"exportSheetList": [
+		{
+			"sheetName": "关卡配置",
+			"exportField": "levelsCfg",
+			"exportPath": "cfg_level.json",
+			"commentRowList": [
+				2
+			],
+			"typeRow": 3,
+			"keyRow": 4,
+			"dataRowBegin": 5,
+			"luaExportConfig": {}
+		},
+		{
+			"sheetName": "关卡生成参数配置",
+			"exportField": "arrowsPresureArgsCfg",
+			"exportPath": "cfg_level.json",
+			"commentRowList": [
+				2
+			],
+			"typeRow": 3,
+			"keyRow": 4,
+			"dataRowBegin": 5,
+			"luaExportConfig": {}
+		},
+		{
+			"sheetName": "关卡动画参数配置",
+			"exportField": "levelsAnimArgsCfg",
+			"exportPath": "cfg_level.json",
+			"commentRowList": [
+				2
+			],
+			"typeRow": 3,
+			"keyRow": 4,
+			"dataRowBegin": 5,
+			"luaExportConfig": {}
+		}
+	]
+}

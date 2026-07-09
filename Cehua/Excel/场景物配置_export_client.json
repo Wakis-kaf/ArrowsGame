@@ -1,0 +1,55 @@
+﻿{
+	"exportType": "csharpjson",
+	"exportFormatType": 1,
+	"exportTemplatePath": "LuaExportTemplate.txt",
+	"exportSheetList": [
+		{
+			"sheetName": "场景物配置",
+			"exportField": "sceneItemCfg",
+			"exportPath": "cfg_sceneItem.json",
+			"commentRowList": [
+				2
+			],
+			"typeRow": 3,
+			"keyRow": 4,
+			"dataRowBegin": 5,
+			"luaExportConfig": {}
+		},
+		{
+			"sheetName": "场景物解锁奖励",
+			"exportField": "unitUnlockRewards",
+			"exportPath": "cfg_sceneItem.json",
+			"commentRowList": [
+				2
+			],
+			"typeRow": 3,
+			"keyRow": 4,
+			"dataRowBegin": 5,
+			"luaExportConfig": {}
+		},
+		{
+			"sheetName": "场景建筑额外参数",
+			"exportField": "buildingItemArgs",
+			"exportPath": "cfg_sceneItem.json",
+			"commentRowList": [
+				2
+			],
+			"typeRow": 3,
+			"keyRow": 4,
+			"dataRowBegin": 5,
+			"luaExportConfig": {}
+		},
+		{
+			"sheetName": "场景怪物额外参数",
+			"exportField": "monsterItemArgs",
+			"exportPath": "cfg_sceneItem.json",
+			"commentRowList": [
+				2
+			],
+			"typeRow": 3,
+			"keyRow": 4,
+			"dataRowBegin": 5,
+			"luaExportConfig": {}
+		}
+	]
+}

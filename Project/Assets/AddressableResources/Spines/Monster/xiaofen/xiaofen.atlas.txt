@@ -1,0 +1,41 @@
+
+xiaofen.png
+size: 744,158
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiaofeng_body
+  rotate: true
+  xy: 2, 6
+  size: 150, 299
+  orig: 151, 300
+  offset: 1, 1
+  index: -1
+xiaofeng_hand1
+  rotate: false
+  xy: 487, 18
+  size: 92, 138
+  orig: 92, 139
+  offset: 0, 1
+  index: -1
+xiaofeng_hand2
+  rotate: false
+  xy: 303, 2
+  size: 182, 154
+  orig: 182, 155
+  offset: 0, 1
+  index: -1
+xiaofeng_jiao1
+  rotate: true
+  xy: 581, 88
+  size: 68, 161
+  orig: 68, 161
+  offset: 0, 0
+  index: -1
+xiaofeng_jiao2
+  rotate: true
+  xy: 581, 19
+  size: 67, 161
+  orig: 67, 161
+  offset: 0, 0
+  index: -1

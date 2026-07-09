@@ -1,0 +1,97 @@
+
+guixinniang.png
+size: 368,533
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dianju
+  rotate: false
+  xy: 228, 48
+  size: 129, 171
+  orig: 129, 171
+  offset: 0, 0
+  index: -1
+fanwan
+  rotate: true
+  xy: 2, 8
+  size: 93, 126
+  orig: 93, 126
+  offset: 0, 0
+  index: -1
+guancai
+  rotate: true
+  xy: 2, 103
+  size: 116, 224
+  orig: 116, 224
+  offset: 0, 0
+  index: -1
+guimianju
+  rotate: false
+  xy: 130, 2
+  size: 96, 99
+  orig: 96, 99
+  offset: 0, 0
+  index: -1
+guixinniang_body
+  rotate: true
+  xy: 2, 315
+  size: 104, 261
+  orig: 104, 261
+  offset: 0, 0
+  index: -1
+guixinniang_hand1
+  rotate: false
+  xy: 300, 365
+  size: 48, 80
+  orig: 48, 80
+  offset: 0, 0
+  index: -1
+guixinniang_hand2
+  rotate: false
+  xy: 300, 447
+  size: 50, 84
+  orig: 50, 84
+  offset: 0, 0
+  index: -1
+guixinniang_tui1
+  rotate: true
+  xy: 265, 371
+  size: 23, 29
+  orig: 25, 31
+  offset: 1, 1
+  index: -1
+guixinniang_tui2
+  rotate: true
+  xy: 265, 396
+  size: 23, 32
+  orig: 23, 32
+  offset: 0, 0
+  index: -1
+liandao
+  rotate: false
+  xy: 265, 221
+  size: 101, 142
+  orig: 101, 142
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: true
+  xy: 2, 242
+  size: 71, 131
+  orig: 71, 131
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: true
+  xy: 135, 226
+  size: 87, 95
+  orig: 87, 95
+  offset: 0, 0
+  index: -1
+zhaohunfan
+  rotate: true
+  xy: 2, 421
+  size: 110, 296
+  orig: 110, 296
+  offset: 0, 0
+  index: -1

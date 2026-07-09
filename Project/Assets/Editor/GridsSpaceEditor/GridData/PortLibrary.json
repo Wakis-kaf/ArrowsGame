@@ -1,0 +1,70 @@
+{
+    "Templates": [
+        {
+            "PortID": "IN_PORT_A",
+            "Side": 3,
+            "IOType": 0,
+            "PresetName": "IN_PORT_A",
+            "InputFilter": "*",
+            "InputDescription": "",
+            "OutputType": "Trigger",
+            "OutputDescription": "",
+            "PortDescription": ""
+        },
+        {
+            "PortID": "IN_PORT_B",
+            "Side": 1,
+            "IOType": 0,
+            "PresetName": "IN_PORT_B",
+            "InputFilter": "*",
+            "InputDescription": "",
+            "OutputType": "Trigger",
+            "OutputDescription": "",
+            "PortDescription": ""
+        },
+        {
+            "PortID": "IN_PORT_C",
+            "Side": 1,
+            "IOType": 0,
+            "PresetName": "IN_PORT_C",
+            "InputFilter": "*",
+            "InputDescription": "",
+            "OutputType": "Trigger",
+            "OutputDescription": "",
+            "PortDescription": ""
+        },
+        {
+            "PortID": "OUT_PORT_A",
+            "Side": 1,
+            "IOType": 0,
+            "PresetName": "OUT_PORT_A",
+            "InputFilter": "*",
+            "InputDescription": "",
+            "OutputType": "Trigger",
+            "OutputDescription": "",
+            "PortDescription": ""
+        },
+        {
+            "PortID": "OUT_PORT_B",
+            "Side": 1,
+            "IOType": 0,
+            "PresetName": "OUT_PORT_B",
+            "InputFilter": "*",
+            "InputDescription": "",
+            "OutputType": "Trigger",
+            "OutputDescription": "",
+            "PortDescription": ""
+        },
+        {
+            "PortID": "OUT_PORT_C",
+            "Side": 1,
+            "IOType": 0,
+            "PresetName": "OUT_PORT_C",
+            "InputFilter": "*",
+            "InputDescription": "",
+            "OutputType": "Trigger",
+            "OutputDescription": "",
+            "PortDescription": ""
+        }
+    ]
+}

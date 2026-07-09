@@ -1,0 +1,76 @@
+
+smw.png
+size: 351,298
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+smw_body
+  rotate: true
+  xy: 159, 168
+  size: 128, 189
+  orig: 128, 189
+  offset: 0, 0
+  index: -1
+smw_hair1
+  rotate: true
+  xy: 159, 98
+  size: 27, 119
+  orig: 27, 119
+  offset: 0, 0
+  index: -1
+smw_hair2
+  rotate: true
+  xy: 159, 127
+  size: 39, 121
+  orig: 39, 121
+  offset: 0, 0
+  index: -1
+smw_hand1
+  rotate: false
+  xy: 228, 33
+  size: 51, 63
+  orig: 51, 63
+  offset: 0, 0
+  index: -1
+smw_hand2
+  rotate: false
+  xy: 281, 8
+  size: 54, 78
+  orig: 54, 78
+  offset: 0, 0
+  index: -1
+smw_hand3
+  rotate: false
+  xy: 132, 20
+  size: 94, 76
+  orig: 176, 81
+  offset: 0, 0
+  index: -1
+smw_hand4
+  rotate: false
+  xy: 282, 88
+  size: 67, 78
+  orig: 68, 78
+  offset: 1, 0
+  index: -1
+smw_head
+  rotate: false
+  xy: 2, 118
+  size: 155, 178
+  orig: 155, 178
+  offset: 0, 0
+  index: -1
+smw_tui1
+  rotate: true
+  xy: 2, 2
+  size: 56, 125
+  orig: 57, 125
+  offset: 0, 0
+  index: -1
+smw_tui2
+  rotate: true
+  xy: 2, 60
+  size: 56, 128
+  orig: 56, 128
+  offset: 0, 0
+  index: -1

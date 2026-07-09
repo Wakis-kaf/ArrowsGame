@@ -1,0 +1,116 @@
+{"frames": {
+
+"game_bar1.png":
+{
+	"frame": {"x":0,"y":0,"w":367,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":367,"h":25},
+	"sourceSize": {"w":367,"h":25}
+},
+"game_bar2.png":
+{
+	"frame": {"x":0,"y":27,"w":359,"h":17},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":359,"h":17},
+	"sourceSize": {"w":359,"h":17}
+},
+"game_icon_cancel.png":
+{
+	"frame": {"x":0,"y":198,"w":54,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":52},
+	"sourceSize": {"w":54,"h":52}
+},
+"game_icon_music.png":
+{
+	"frame": {"x":133,"y":131,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63}
+},
+"game_icon_sibrates.png":
+{
+	"frame": {"x":113,"y":66,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63}
+},
+"game_icon_sound.png":
+{
+	"frame": {"x":68,"y":132,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63}
+},
+"game_off.png":
+{
+	"frame": {"x":0,"y":66,"w":111,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":64},
+	"sourceSize": {"w":111,"h":64}
+},
+"game_on.png":
+{
+	"frame": {"x":369,"y":0,"w":111,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":64},
+	"sourceSize": {"w":111,"h":64}
+},
+"game_slide_handle.png":
+{
+	"frame": {"x":0,"y":132,"w":66,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":64},
+	"sourceSize": {"w":66,"h":64}
+},
+"game_text_music.png":
+{
+	"frame": {"x":155,"y":196,"w":72,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":39},
+	"sourceSize": {"w":72,"h":39}
+},
+"game_text_set.png":
+{
+	"frame": {"x":56,"y":198,"w":97,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":46},
+	"sourceSize": {"w":97,"h":46}
+},
+"game_text_sibrates.png":
+{
+	"frame": {"x":256,"y":46,"w":72,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":35},
+	"sourceSize": {"w":72,"h":35}
+},
+"game_text_sound.png":
+{
+	"frame": {"x":178,"y":66,"w":76,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":38},
+	"sourceSize": {"w":76,"h":38}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "Setting_Tex.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:db234fe4e1bada42182612494f4a0223$"
+}
+}

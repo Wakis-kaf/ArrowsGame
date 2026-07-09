@@ -1,0 +1,57 @@
+{
+    "Cells": [
+        {
+            "Name": "Cell",
+            "Type": "",
+            "Description": "",
+            "Coordinates": {
+                "x": -1,
+                "y": 0
+            },
+            "Ports": [
+                {
+                    "PortID": "IN_PORT_A",
+                    "Side": 1,
+                    "IOType": 0,
+                    "PresetName": "手动修改",
+                    "InputFilter": "*",
+                    "InputDescription": "",
+                    "OutputType": "Trigger",
+                    "OutputDescription": "",
+                    "PortDescription": ""
+                },
+                {
+                    "PortID": "OUT_PORT_A",
+                    "Side": 3,
+                    "IOType": 0,
+                    "PresetName": "手动修改",
+                    "InputFilter": "*",
+                    "InputDescription": "",
+                    "OutputType": "Trigger",
+                    "OutputDescription": "",
+                    "PortDescription": ""
+                }
+            ]
+        },
+        {
+            "Name": "Cell",
+            "Type": "IN_PORT_A",
+            "Description": "",
+            "Coordinates": {
+                "x": 1,
+                "y": 0
+            },
+            "Ports": []
+        },
+        {
+            "Name": "Cell",
+            "Type": "IN_PORT_A",
+            "Description": "",
+            "Coordinates": {
+                "x": 2,
+                "y": 2
+            },
+            "Ports": []
+        }
+    ]
+}

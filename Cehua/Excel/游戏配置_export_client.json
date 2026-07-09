@@ -1,0 +1,19 @@
+﻿{
+	"exportType": "csharpjson",
+	"exportFormatType": 1,
+	"exportTemplatePath": "LuaExportTemplate.txt",
+	"exportSheetList": [
+		{
+			"sheetName": "游戏配置",
+			"exportField": "gameConfig",
+			"exportPath": "cfg_game.json",
+			"commentRowList": [
+				2
+			],
+			"typeRow": 3,
+			"keyRow": 4,
+			"dataRowBegin": 5,
+			"luaExportConfig": {}
+		}
+	]
+}

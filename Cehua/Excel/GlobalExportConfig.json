@@ -1,0 +1,71 @@
+﻿{
+	"globalExportList": [],
+	"singleExportList": [
+		{
+			"excelPath": "红点配置.xlsx",
+			"exportChannelList": [
+				{
+					"exportConfigPath": "红点配置_export_client.json"
+				}
+			]
+		},
+		{
+			"excelPath": "引导配置.xlsx",
+			"exportChannelList": [
+				{
+					"exportConfigPath": "引导配置_export_client.json"
+				}
+			]
+		},
+		{
+			"excelPath": "道具配置.xlsx",
+			"exportChannelList": [
+				{
+					"exportConfigPath": "道具配置_export_client.json"
+				}
+			]
+		},
+		{
+			"excelPath": "场景物配置.xlsx",
+			"exportChannelList": [
+				{
+					"exportConfigPath": "场景物配置_export_client.json"
+				}
+			]
+		},
+		
+		{
+			"excelPath": "游戏配置.xlsx",
+			"exportChannelList": [
+				{
+					"exportConfigPath": "游戏配置_export_client.json"
+				}
+			]
+		},
+		{
+			"excelPath": "音效配置.xlsx",
+			"exportChannelList": [
+				{
+					"exportConfigPath": "音效配置_export_client.json"
+				}
+			]
+		},
+		{
+			"excelPath": "主题配置.xlsx",
+			"exportChannelList": [
+				{
+					"exportConfigPath": "主题配置_export_client.json"
+				}
+			]
+		},
+			{
+			"excelPath": "关卡配置.xlsx",
+			"exportChannelList": [
+				{
+					"exportConfigPath": "关卡配置_export_client.json"
+				}
+			]
+		}
+		
+	]
+}

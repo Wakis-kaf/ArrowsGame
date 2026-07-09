@@ -1,0 +1,32 @@
+﻿{
+	"exportType": "typescript",
+	"exportFormatType": 1,
+	"exportTemplatePath": "LuaExportTemplate.txt",
+	"exportSheetList": [
+		{
+			"sheetName": "复合表",
+			"exportField": "compositeCfg",
+			"exportPath": "cfg_export.ts",
+			"keyRow": 3,
+			"typeRow": 4,
+			"commentRowList": [
+				2
+			],
+			"dataRowBegin": 5,
+			"luaExportConfig": {}
+		},
+		{
+			"sheetName": "普通表",
+			"exportField": "commonCfg",
+			"exportPath": "cfg_export.ts",
+			"keyRow": 1,
+			"typeRow": 2,
+			"commentRowList": [
+
+			],
+			"dataRowBegin": 3,
+			"luaExportConfig": {}
+		}
+		
+	]
+}

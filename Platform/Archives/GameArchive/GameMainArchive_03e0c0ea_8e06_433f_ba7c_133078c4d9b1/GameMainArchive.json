@@ -1,0 +1,50 @@
+
+{
+    "__m_InvArc" : {
+        "__m_InvMeta" : {
+        }
+    },
+    "__m_RoleArc" : {
+        "__m_CurrentRoleId" : -1,
+        "__m_CurrentRoleSkinId" : -1,
+        "__m_GetAfkRewardTime"  : 1780739266,
+        "__m_AfkHasCleanCount"  : 0,
+        "__m_MusicVolume"       : -1,
+        "__m_EffectVolume"      : -1,
+        "__m_RoleStatusMap"     : {
+        },
+        "__m_RoleBookMap"       : {
+        },
+        "__m_RoleLvMap"         : {
+        },
+        "__m_RoleStarMap"       : {
+        },
+        "__m_RoleEquipMap"      : {
+        },
+        "__m_RoleShopDayBuyMap" : {
+        },
+        "__m_ItemRecoverMap"    : {
+        },
+        "__m_RoleItemStateMap"  : {
+        },
+        "__m_RoleTalentActiveMap" : {
+        }
+    },
+    "__m_MainFightArc" : {
+        "__m_ChapterLevelPass" : {
+        },
+        "__m_ChapterWaveRewardGot" : {
+        }
+    },
+    "__m_GuideArc"     : {
+        "__m_GuideStatus" : {
+        },
+        "__m_GuideCompleteTaskMap" : {
+        }
+    },
+    "__m_CretTime"     : "06/06/2026 17:47:46",
+    "__m_Id"           : "03e0c0ea_8e06_433f_ba7c_133078c4d9b1",
+    "__m_Name"         : "GameMainArchive",
+    "__m_UpdTime"      : "06/06/2026 20:00:31",
+    "__m_Ver"          : "1.0"
+}

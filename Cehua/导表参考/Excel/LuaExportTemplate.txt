@@ -1,0 +1,10 @@
+﻿ **DECLARE**
+
+/*
+exportfileNmae: **EXPORTFILENAME**
+
+**COMMENT**
+*/
+
+export const config :  **DECLARENAME**  = **CONTENT**
+

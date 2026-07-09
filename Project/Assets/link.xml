@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<linker>
+	<!-- 保留所有UnityEngine程序集 -->
+	<assembly fullname="UnityEngine" preserve="all" />
+	<assembly fullname="UnityEngine.*" preserve="all" />
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+	</assembly>
+
+	<!-- 特别保留核心模块 -->
+	<assembly fullname="UnityEngine.CoreModule">
+		<type fullname="UnityEngine.Component" preserve="all" />
+		<type fullname="UnityEngine.GameObject" preserve="all" />
+		<type fullname="UnityEngine.Transform" preserve="all" />
+	</assembly>
+
+	<!-- 保留渲染相关模块 -->
+	<assembly fullname="UnityEngine.AnimationModule">
+		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+		<type fullname="UnityEngine.Renderer" preserve="all" />
+		<type fullname="UnityEngine.MeshRenderer" preserve="all" />
+	</assembly>
+
+	<assembly fullname="UnityEngine.PhysicsModule">
+		<type fullname="UnityEngine.MeshCollider" preserve="all" />
+		<type fullname="UnityEngine.SphereCollider" preserve="all" />
+		<type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+		<type fullname="UnityEngine.BoxCollider" preserve="all" />
+	</assembly>
+
+	<!-- 保留网格相关类型 -->
+	<assembly fullname="UnityEngine.UNETModule">
+		<type fullname="UnityEngine.Mesh" preserve="all" />
+		<type fullname="UnityEngine.MeshFilter" preserve="all" />
+	</assembly>
+
+	<!-- 保留材质相关类型 -->
+	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.Material" preserve="all" />
+		<type fullname="UnityEngine.Shader" preserve="all" />
+		<type fullname="UnityEngine.Texture" preserve="all" />
+	</assembly>
+
+	<!-- 保留项目代码 -->
+	<assembly fullname="FrameworkLibrary" preserve="all" />
+	<assembly fullname="FrameworkCommon" preserve="all" /> 
+	<assembly fullname="FrameworkRuntime" preserve="all" /> 
+	<assembly fullname="GameRuntime" preserve="all" /> 
+	<assembly fullname="BehaviourDesignerRuntime" preserve="all" /> 
+	<assembly fullname="Assembly-CSharp-firstpass" preserve="all" />
+	<assembly fullname="Assembly-CSharp-firstpass" preserve="all" />
+
+	<!-- 保留常用的第三方插件 -->
+	<assembly fullname="Unity.TextMeshPro" preserve="all" />
+	<assembly fullname="Unity.Postprocessing.Runtime" preserve="all" />
+
+    <assembly fullname="CustomLitJson" preserve="all"/>
+	<assembly fullname="LitJSON" preserve="all"/>
+    <assembly fullname="LitJson" preserve="all"/>
+    
+    <assembly fullname="mscorlib">
+        <type fullname="System.Int32" preserve="all"/>
+        <type fullname="System.Convert" preserve="all"/>
+    </assembly>
+</linker>

@@ -1,0 +1,68 @@
+﻿{
+	"exportType": "csharpjson",
+	"exportFormatType": 1,
+	"exportTemplatePath": "LuaExportTemplate.txt",
+	"exportSheetList": [
+		{
+			"sheetName": "引导配置",
+			"exportField": "guideNodes",
+			"exportPath": "cfg_guide.json",
+			"commentRowList": [
+				3
+			],
+			"typeRow": 4,
+			"keyRow": 5,
+			"dataRowBegin": 6,
+			"luaExportConfig": {}
+		},
+		{
+			"sheetName": "任务Entry配置",
+			"exportField": "taskEntryTrigger",
+			"exportPath": "cfg_guide.json",
+			"commentRowList": [
+				3
+			],
+			"typeRow": 4,
+			"keyRow": 5,
+			"dataRowBegin": 6,
+			"luaExportConfig": {}
+		},
+		{
+			"sheetName": "任务Exit配置",
+			"exportField": "taskExitTrigger",
+			"exportPath": "cfg_guide.json",
+			"commentRowList": [
+				3
+			],
+			"typeRow": 4,
+			"keyRow": 5,
+			"dataRowBegin": 6,
+			"luaExportConfig": {}
+		},
+		{
+			"sheetName": "任务Stay配置",
+			"exportField": "taskStayTrigger",
+			"exportPath": "cfg_guide.json",
+			"commentRowList": [
+				3
+			],
+			"typeRow": 4,
+			"keyRow": 5,
+			"dataRowBegin": 6,
+			"luaExportConfig": {}
+		},
+		{
+			"sheetName": "任务Done配置",
+			"exportField": "taskDoneTrigger",
+			"exportPath": "cfg_guide.json",
+			"commentRowList": [
+				3
+			],
+			"typeRow": 4,
+			"keyRow": 5,
+			"dataRowBegin": 6,
+			"luaExportConfig": {}
+		}
+		
+	]
+}

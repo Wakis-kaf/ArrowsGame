@@ -1,0 +1,32 @@
+﻿{
+	"exportType": "csharpjson",
+	"exportFormatType": 1,
+	"exportTemplatePath": "LuaExportTemplate.txt",
+	"exportSheetList": [
+		{
+			"sheetName": "道具基础配置",
+			"exportField": "itemInfoCfg",
+			"exportPath": "cfg_items.json",
+			"keyRow": 4,
+			"typeRow": 3,
+			"commentRowList": [
+				2
+			],
+			"dataRowBegin": 5,
+			"luaExportConfig": {}
+		},
+	{
+			"sheetName": "道具附加参数配置",
+			"exportField": "itemParamsCfg",
+			"exportPath": "cfg_items.json",
+			"keyRow": 4,
+			"typeRow": 3,
+			"commentRowList": [
+				2
+			],
+			"dataRowBegin": 5,
+			"luaExportConfig": {}
+		}
+
+	]
+}
