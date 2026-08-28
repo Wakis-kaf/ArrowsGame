@@ -10,7 +10,7 @@ namespace Framework.Runtime.UI
     public class Panel : DisplayUnit
     {
         private UPanel m_Panel;
-        
+
         protected float m_ShowEffectDuration = 0.15f;
         protected float m_HideEffectDuration = 0.1f;
 
@@ -21,7 +21,7 @@ namespace Framework.Runtime.UI
             if (!UIPanel.hideAnimCaller.CanCall())
             {
                 StartCommonPanelHideEff(hideCompleted);
-                
+
             }
             else
             {
@@ -33,12 +33,12 @@ namespace Framework.Runtime.UI
                 UIPanel.hideAnimCaller.Call(hideCompleted);
             }
 
-            
+
         }
         protected Sequence m_ShowSequence;
         protected virtual void InitShowSequence()
         {
-            if (m_ShowSequence!= null) return;
+            if (m_ShowSequence != null) return;
             m_ShowSequence = DOTween.Sequence();
             m_ShowSequence.Join(CanvasGroup.DOFade(1f, m_ShowEffectDuration));
             if (UIPanel.UseCommonScaleEffect)
@@ -84,7 +84,7 @@ namespace Framework.Runtime.UI
             m_HideSequence.SetAutoKill(false)  // 不自动销毁，可以重复使用
                              .SetEase(Ease.Linear).Pause().SetUpdate(true); // 设置缓动类型
         }
-        
+
         protected virtual void StartCommonPanelHideEff(Action hideCompleted)
         {
             if (!UIPanel.UseCommonVisibleEffect)
@@ -102,7 +102,7 @@ namespace Framework.Runtime.UI
             RectTransform.localScale = Vector3.one;
             m_HideSequence.Restart();
             m_HideSequence.OnComplete(hideCompleted.Invoke);
-          
+
         }
         protected virtual void StartCommonPanelShowEff(Action showCompleted)
         {
@@ -121,7 +121,7 @@ namespace Framework.Runtime.UI
             RectTransform.localScale = Vector3.one;
             m_ShowSequence.Restart();
             m_ShowSequence.OnComplete(showCompleted.Invoke);
-          
+
         }
         protected override void DoHide()
         {
@@ -149,9 +149,9 @@ namespace Framework.Runtime.UI
                 }
                 UIPanel.showAnimCaller.Call(showCompleteCb);
             }
-            
+
         }
-        public static T OpenPanel<T>()  where T :Panel
+        public static T OpenPanel<T>() where T : Panel
         {
             return PanelManager.Ins.OpenPanel<T>("");
         }
@@ -165,7 +165,7 @@ namespace Framework.Runtime.UI
         }
         public override void Destroy()
         {
-            
+
             PanelManager.Ins.DestroyPanel(this);
         }
         protected override void DisposeUnManagedResources()
@@ -179,7 +179,7 @@ namespace Framework.Runtime.UI
         }
         public override void OnDestroy()
         {
-      
+
         }
         public void DisableBgMask()
         {
@@ -260,7 +260,7 @@ namespace Framework.Runtime.UI
             markGo.layer = 5;
             // 设置默认贴图
             img.type = Image.Type.Sliced;
-            img.color =UIPanel==null? new Color(0, 0, 0, 0.85f):UIPanel.bgMaskColor;
+            img.color = UIPanel == null ? new Color(0, 0, 0, 0.85f) : UIPanel.bgMaskColor;
             return img;
         }
     }

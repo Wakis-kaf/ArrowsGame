@@ -961,7 +961,8 @@ namespace Game.Modules.GModuleArrows
                 minValue = 0,
                 maxValue = 100,
                 targetValue = 100,
-                timer = 1f
+                timer = 1f,
+                minDisplayTime = 0.2f
             });
             PanelManager.Ins.CloseAllUIPanel();
             PanelManager.Ins.CloseAllHighUIPanel();

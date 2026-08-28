@@ -31,6 +31,7 @@ updated: 2026-08-28
 - `Cehua/Excel/GlobalConfig.json` 的导表输入和输出路径已修正为当前 `D:\learn\UnityGame\ArrowsGame` 目录。
 - 错误点击反馈已改为 Built-in 管线的相机后处理：`ArrowsGameStage` 在显示时为关卡相机挂载 `ArrowsWrongClickPostProcess`，触发消息后以 `ArrowsWrongClickPostProcess.shader` 渲染短促红色边缘；已移除 UI Image 方案。
 - 局内 HUD 已接入金币、当前关卡生命和三种道具：`PlayGamePanel` 显示提示、撤销、清除的库存；道具库存优先消耗，库存不足时走广告中间层或 30 金币兜底。提示高亮可解点，清除自动移除可解箭头，撤销恢复最近一次成功移除。
+- 下一关切换的 `GameArrowsLoadingOption` 已设置最短显示 0.2 秒；`GameLoading` 以 `minDisplayTime` 通用字段和非缩放时间延迟关闭，消除缓存命中时 Loading 的闪帧。
 - 已在 `Project/Packages/manifest.json` 添加 MCP for Unity 9.7.3，Unity 已解析包缓存并编译 `MCPForUnity.Runtime.dll`；仓库 `.mcp.json` 与 Codex 用户配置都已注册 `unityMCP` HTTP 端点 `http://127.0.0.1:8080/mcp`。
 - 当前 MCP CLI 因 Windows `C:\Users` ACL 安全校验无法创建协调端点，尚未完成本次代码变更后的重新索引；需修复运行环境后执行 `index_repository`。
 - Unity 2022.3.62f2 批处理验证因项目已被另一 Unity 实例锁定而未执行到脚本编译；需关闭编辑器后重试。

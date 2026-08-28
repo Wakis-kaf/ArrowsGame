@@ -65,6 +65,7 @@ namespace Game.Modules
             MessageDispatcher.Ins.Dispatch(MessageCode.msg_entryGamePlay);
         }
 
+
         /// <summary>
         /// 注册页面消息，次于 OnInitUI 之后执行
         /// </summary>
@@ -101,6 +102,11 @@ namespace Game.Modules
         public override void OnDestroy()
         {
 
+        }
+        protected override void StartCommonPanelHideEff(Action hideCompleted)
+        {
+            DisvisibleUI();
+            hideCompleted?.Invoke();
         }
     }
 }
