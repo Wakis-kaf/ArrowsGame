@@ -8,7 +8,7 @@ updated: 2026-08-28
 
 ## 当前目标
 
-维护和开发 ArrowsGame；在 UnitFramework 基础上实现箭头游戏玩法，并保持 Framework 与 Game 分层。
+评估 ArrowsGame 的现有功能与手感，规划微信小游戏上线所需的兼容、性能、商业化和可玩性迭代。
 
 ## 已确认决策
 
@@ -23,6 +23,7 @@ updated: 2026-08-28
 - `.agents/skills/` 已包含 `unity-unitask` 和 `unity-testing`。
 - 已使用 `codebase-memory-mcp 0.10.8` 完成索引，生成数据库 `Datebases/code-mermory-base/D-learn-UnityGame-ArrowsGame.db`（44,574 节点、159,079 条边）；后续优先通过 MCP 读取并在代码关系变化后重新索引同步。
 - `index_status` 已验证索引状态为 `ready`；当前有 66 个文件存在解析不完整区间，涉及部分第三方/生成/存档文件，查询这些文件时需辅以源码搜索。
+- 已完成一次微信小游戏上线与玩法体验分析；结论尚未转化为代码改造任务。
 - 当前没有已登记的进行中改造任务。
 
 ## 下一步
