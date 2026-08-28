@@ -22,6 +22,8 @@ namespace Game.Modules.GModuleManage
         private ArchiveLevel m_LevelArc;
         [JsonSerializer]
         private ArchiveGuide m_GuideArc;
+        [JsonSerializer]
+        private ArchiveProgression m_ProgressionArc;
         [JsonIgnore]
         public ArchiveInventory InventoryArchive => m_InvArc;
         [JsonIgnore]
@@ -30,6 +32,8 @@ namespace Game.Modules.GModuleManage
         public ArchiveLevel LevelArchive => m_LevelArc;
         [JsonIgnore]
         public ArchiveGuide GuideArchive => m_GuideArc;
+        [JsonIgnore]
+        public ArchiveProgression ProgressionArchive => m_ProgressionArc;
         [JsonIgnore]
         public bool IsNewCreateArchive { get; internal set; }
 
@@ -48,6 +52,8 @@ namespace Game.Modules.GModuleManage
 
             m_GuideArc = new ArchiveGuide();
             m_GuideArc.OwnArchive = this;
+            m_ProgressionArc = new ArchiveProgression();
+            m_ProgressionArc.OwnArchive = this;
 
             MarkDirty();
         }
@@ -70,6 +76,9 @@ namespace Game.Modules.GModuleManage
 
             m_GuideArc.OwnArchive = this;
             m_GuideArc.OnLoadFromArchive();
+            if (m_ProgressionArc == null) m_ProgressionArc = new ArchiveProgression();
+            m_ProgressionArc.OwnArchive = this;
+            m_ProgressionArc.OnLoadFromArchive();
         }
     }
 }

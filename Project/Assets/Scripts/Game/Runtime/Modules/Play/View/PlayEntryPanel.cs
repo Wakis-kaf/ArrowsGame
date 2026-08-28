@@ -15,31 +15,30 @@ namespace Game.Modules
     public class PlayEntryPanel : Panel
     {
         #region PrefabBinder 自动引用区域 开始
-        private Framework.Runtime.UI.UButton ubtnQuit;
-        private Framework.Runtime.UI.UButton ubtnBook;
-        private Framework.Runtime.UI.UButton ubtnBlueprint;
-        private Framework.Runtime.UI.UButton ubtnInv;
-        private Framework.Runtime.UI.UButton ubtnSetting;
-        private Framework.Runtime.UI.UButton ubtnStart;
-        private UnityEngine.GameObject goBtnGroup;
-        private Framework.Runtime.UI.USprite uspBg;
-        #endregion PrefabBinder 自动引用区域 结束
+		private Framework.Runtime.UI.UTMPText utmpTxtTitle;
+		private Framework.Runtime.UI.UButton ubtnSetting;
+		private Framework.Runtime.UI.UButton ubtnBox;
+		private UnityEngine.RectTransform rtBox;
+		private Framework.Runtime.UI.UButton ubtnStart;
+		private Framework.Runtime.UI.UImage imgBg;
+
+		#endregion PrefabBinder 自动引用区域 结束
 
         protected override void AutoExtractPrefabBinderComponent(PrefabBinder prefabBinder)
         {
-            this.ubtnQuit = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnQuit");
-            this.ubtnBook = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnBook");
-            this.ubtnBlueprint = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnBlueprint");
-            this.ubtnInv = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnInv");
-            this.ubtnSetting = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnSetting");
-            this.ubtnStart = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnStart");
-            this.goBtnGroup = prefabBinder.GetObj<UnityEngine.GameObject>("goBtnGroup");
-            this.uspBg = prefabBinder.GetObj<Framework.Runtime.UI.USprite>("uspBg");
-        }
+			this.utmpTxtTitle = prefabBinder.GetObj<Framework.Runtime.UI.UTMPText>("utmpTxtTitle");
+			this.ubtnSetting = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnSetting");
+			this.ubtnBox = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnBox");
+			this.rtBox = prefabBinder.GetObj<UnityEngine.RectTransform>("rtBox");
+			this.ubtnStart = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnStart");
+			this.imgBg = prefabBinder.GetObj<Framework.Runtime.UI.UImage>("imgBg");
+
+		}
         public override int GetOpenLayer(int externalLayer)
         {
-            return externalLayer;
-        }
+			return externalLayer;
+
+		}
 
         public override string GetAssetLink(string outAssetLink)
         {
@@ -108,6 +107,9 @@ namespace Game.Modules
         }
     }
 }
+
+
+
 
 
 

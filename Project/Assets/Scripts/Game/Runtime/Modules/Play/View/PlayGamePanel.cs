@@ -13,6 +13,7 @@ using Framework.Runtime;
 using UnityEngine.Rendering;
 using DG.Tweening;
 using Game.Modules.GModuleManage;
+using Game.Modules.GModuleProgression;
 namespace Game.Modules
 {
     public class PlayGamePanel : Panel
@@ -31,6 +32,10 @@ namespace Game.Modules
         private Framework.Runtime.UI.UButton ubtnRestart;
         private Framework.Runtime.UI.UButton ubtnReturn;
         private Framework.Runtime.UI.USprite uspBg;
+        private Framework.Runtime.UI.UTMPText utmpTxtCoins;
+        private Framework.Runtime.UI.UTMPText utmpTxtHearts;
+        private Framework.Runtime.UI.UButton ubtnUndo;
+        private Framework.Runtime.UI.UButton ubtnClear;
 
         #endregion PrefabBinder 自动引用区域 结束
 
@@ -49,6 +54,10 @@ namespace Game.Modules
             this.ubtnRestart = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnRestart");
             this.ubtnReturn = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnReturn");
             this.uspBg = prefabBinder.GetObj<Framework.Runtime.UI.USprite>("uspBg");
+            this.utmpTxtCoins = prefabBinder.GetObj<Framework.Runtime.UI.UTMPText>("utmpTxtCoins");
+            this.utmpTxtHearts = prefabBinder.GetObj<Framework.Runtime.UI.UTMPText>("utmpTxtHearts");
+            this.ubtnUndo = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnUndo");
+            this.ubtnClear = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnClear");
 
         }
         private bool m_IsZoomDragingChange = false;
@@ -87,6 +96,8 @@ namespace Game.Modules
             upbZoom.AddEndDraged(OnZoomProgressEndDrag);
             ubtnMinus.AddClick(OnZoomMinusClick);
             ubtnPlus.AddClick(OnZoomPlusClick);
+            ubtnUndo.AddClick(() => OnPropClick(GameProgressionConstant.PropUndo, LevelVO.Current.TryUseUndoProp));
+            ubtnClear.AddClick(() => OnPropClick(GameProgressionConstant.PropClear, LevelVO.Current.TryUseClearProp));
 
         }
 
@@ -113,7 +124,10 @@ namespace Game.Modules
             SubscribeEvent(MessageCode.msg_on_game_restart, OnGameRestart);
             SubscribeEvent(MessageCode.msg_on_game_start, OnGameStart);
             SubscribeEvent(MessageCode.msg_on_arrowLineChanged, SyncArrowNumProgressAnim);
+            SubscribeEvent(MessageCode.msg_on_wrong_arrow_click, RefreshProgressionView);
             SubscribeEvent<float, float>(MessageCode.msg_on_cameraZoom_changed, OnCamerZoomChanged);
+            SubscribeEvent(MessageCode.msg_on_progression_changed, RefreshProgressionView);
+            SubscribeEvent<int>(MessageCode.msg_on_progression_rewarded, OnProgressionRewarded);
         }
 
 
@@ -121,6 +135,7 @@ namespace Game.Modules
         private void OnGameStart()
         {
             ulistHearts.SetDataSources(LevelVO.Current.GetLevelHeartInfoList());
+            RefreshProgressionView();
         }
 
         private void OnGameRestart()
@@ -130,18 +145,7 @@ namespace Game.Modules
 
         private void OnTipClick()
         {
-
-            var tipPoint = LevelVO.Current.GetTipPoint();
-            if (tipPoint == null)
-            {
-                Log.Error("当前棋盘无解");
-            }
-            else
-            {
-                Log.Info($"当前棋盘有解,点击{tipPoint.id}");
-                var pointSceneUnit = LevelVO.Current.GetPointSceneUnitById(tipPoint.id);
-                LevelVO.Current.CheckPointTrigger(pointSceneUnit);
-            }
+            OnPropClick(GameProgressionConstant.PropHint, LevelVO.Current.TryUseHintProp);
         }
 
         private void OnRestartClick()
@@ -157,12 +161,43 @@ namespace Game.Modules
             // StartEntryAnim();
             SyncArrowNumProgress(false);
             UpdateView();
+            RefreshProgressionView();
             // SyncZoom();
             ulistHearts.SetDataSources(LevelVO.Current.GetLevelHeartInfoList());
         }
         private void UpdateView()
         {
             utmpTxtLevel.text = $"第{GameArchive.Main.LevelArchive.GetCurLevelId()}关";
+        }
+        private void OnPropClick(int propId, Func<bool> useProp)
+        {
+            if (GameProgressionService.TryConsumeProp(propId))
+            {
+                if (useProp()) { RefreshProgressionView(); return; }
+                GameProgressionService.AddProp(propId, 1);
+            }
+            GameProgressionService.AcquireProp(propId, acquired =>
+            {
+                if (acquired && GameProgressionService.TryConsumeProp(propId) && !useProp()) GameProgressionService.AddProp(propId, 1);
+                RefreshProgressionView();
+            });
+        }
+        private void RefreshProgressionView()
+        {
+            if (GameArchive.Main == null || LevelVO.Current == null) return;
+            utmpTxtCoins.text = $"金币 {GameArchive.Main.ProgressionArchive.Coins}";
+            utmpTxtHearts.text = $"体力 {LevelVO.Current.GetHearNum()}";
+            var isVisible = GameProgressionService.IsPropBarVisible(GameArchive.Main.LevelArchive.GetCurLevelId());
+            ubtnTip.gameObject.SetActive(isVisible);
+            ubtnUndo.gameObject.SetActive(isVisible);
+            ubtnClear.gameObject.SetActive(isVisible);
+            ubtnTip.Text = $"提示\\nx{GameProgressionService.GetPropCount(GameProgressionConstant.PropHint)}";
+            ubtnUndo.Text = $"撤销\\nx{GameProgressionService.GetPropCount(GameProgressionConstant.PropUndo)}";
+            ubtnClear.Text = $"清除\\nx{GameProgressionService.GetPropCount(GameProgressionConstant.PropClear)}";
+        }
+        private void OnProgressionRewarded(int levelId)
+        {
+            RefreshProgressionView();
         }
         private void SyncArrowNumProgressAnim()
         {

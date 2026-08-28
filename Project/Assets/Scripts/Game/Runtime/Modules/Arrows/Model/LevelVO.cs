@@ -8,6 +8,7 @@ using Framework.Runtime.UI;
 using Framework.Utils;
 using Game.Modules.GModuleAudio;
 using Game.Modules.GModuleManage;
+using Game.Modules.GModuleProgression;
 using Game.Modules.GModuleSceneUnit;
 using Game.Modules.GModuleStage;
 using Game.Modules.GModuleTip;
@@ -41,6 +42,7 @@ namespace Game.Modules.GModuleArrows
         private List<ArrowLineSceneUnit> m_AllArrows;
         // private List<LevelArrowNode> m_AllArrowNodes;
         private List<ArrowLineSceneUnit> m_NeedRePutArrows;
+        private LevelArrowNode m_LastRemovedArrow;
         private List<LevelHeartVO> m_Hearts;
         private HashSet<ArrowLineSceneUnit> m_HeartSubArrows;
         public static LevelVO Current { get; private set; }
@@ -469,6 +471,48 @@ namespace Game.Modules.GModuleArrows
             }
             return null;
         }
+        public bool TryUseHintProp()
+        {
+            var point = GetTipPoint();
+            var scenePoint = point == null ? null : GetPointSceneUnitById(point.id);
+            if (scenePoint == null) return false;
+            var screenPosition = GameStage.gameCamera.WorldToScreenPoint(scenePoint.RootTransform.position);
+            MessageDispatcher.Ins.Dispatch(MessageCode.msg_play_arrow_click_point_tip, new Game.Modules.ArrowClickPointTipWindowData
+            {
+                showTipScreenPos = screenPosition,
+                innerScreeRadius = 28f,
+                outerScreeRadius = 80f
+            });
+            return true;
+        }
+        public bool TryUseClearProp()
+        {
+            var point = GetTipPoint();
+            if (point == null) return false;
+            CheckPointTrigger(GetPointSceneUnitById(point.id));
+            return true;
+        }
+        public bool TryUseUndoProp()
+        {
+            if (m_LastRemovedArrow == null || m_LastRemovedArrow.IsEnable()) return false;
+            foreach (var pending in m_NeedRePutArrows.ToArray())
+            {
+                if (pending.ArrowNode != m_LastRemovedArrow) continue;
+                m_NeedRePutArrows.Remove(pending);
+                GameSceneUnitClientHandler.Ins.GameSceneUnitPool.PutSceneUnit(GameArrowsConstant.ArrowLineSceneUnitId, pending);
+            }
+            m_LastRemovedArrow.SetStatus(LevelArrowStatus.Status_Enable);
+            foreach (var pointIndex in m_LastRemovedArrow.occupiedPointIndexs) LevelPointLayout.SetNodesOccupyRemoved(pointIndex, false);
+            var arrow = GameSceneUnitClientHandler.Ins.GameSceneUnitPool.GetSceneUnit<ArrowLineSceneUnit>(GameArrowsConstant.ArrowLineSceneUnitId, true);
+            arrow.RootTransform.gameObject.name = "Arrow" + m_LastRemovedArrow.Id;
+            arrow.SetRootParent(GameStage.transArrowsRoot);
+            arrow.SetArrowData(m_LastRemovedArrow);
+            m_AllArrows.Add(arrow);
+            m_LastRemovedArrow = null;
+            SaveArrowsArchive();
+            MessageDispatcher.Ins.Dispatch(MessageCode.msg_on_arrowLineChanged);
+            return true;
+        }
         public bool IsAllArrowCanRemove()
         {
             foreach (var arrow in m_AllArrows)
@@ -599,6 +643,7 @@ namespace Game.Modules.GModuleArrows
         private void GameSuccessRecord()
         {
             GameArchive.Main.LevelArchive.PassCurLevel();
+            GameProgressionService.GrantLevelReward(LevelInfo.levelId);
         }
         private async UniTask PlayGameSuccessAnim()
         {
@@ -624,6 +669,7 @@ namespace Game.Modules.GModuleArrows
                 Log.Info($"改{targetArrow.ArrowNode.Id}线段无法移除，前面有线条占用{occArrow.ArrowNode.Id}");
                 if (IsGameAlive())
                 {
+                    GameFeedbackService.OnWrongAction();
                     SubGameHeart(targetArrow);
                     Vector3 offset = -targetArrow.ArrowNode.MoveDirection * 0f;
                     GameAudioClientHandler.Ins.PlayEffect(GameAudioConstant.Eff_ErrorAns);
@@ -655,6 +701,7 @@ namespace Game.Modules.GModuleArrows
         }
         private void RemoveAndPlayArrowLine(ArrowLineSceneUnit arrowLineSceneUnit)
         {
+            m_LastRemovedArrow = arrowLineSceneUnit.ArrowNode;
             m_AllArrows.Remove(arrowLineSceneUnit);
             arrowLineSceneUnit.ArrowNode.SetStatus(LevelArrowStatus.Status_Disable);
             // m_AllArrowNodes.Remove(arrowLineSceneUnit.ArrowNode);

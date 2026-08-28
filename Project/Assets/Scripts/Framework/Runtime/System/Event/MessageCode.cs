@@ -74,5 +74,9 @@ namespace Framework.Runtime
         public static string msg_set_camera_zoom = "msg_set_camera_zoom";
         public static string msg_add_camera_zoom = "msg_add_camera_zoom";
         public static string msg_on_cameraZoom_changed = "msg_on_cameraZoom_changed";
+        public const string msg_on_wrong_arrow_click = "msg_on_wrong_arrow_click";
+        public const string msg_on_progression_rewarded = "msg_on_progression_rewarded";
+        public const string msg_on_progression_changed = "msg_on_progression_changed";
+        public const string msg_open_progression_chest = "msg_open_progression_chest";
     }
 }
