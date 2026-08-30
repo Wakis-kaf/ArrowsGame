@@ -1,0 +1,9 @@
+﻿ **DECLARE**
+
+/*
+exportfileNmae: **EXPORTFILENAME**
+
+**COMMENT**
+*/
+
+let config :  **DECLARENAME**  = **CONTENT**

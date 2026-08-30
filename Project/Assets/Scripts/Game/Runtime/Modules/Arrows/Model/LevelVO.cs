@@ -1101,6 +1101,10 @@ namespace Game.Modules.GModuleArrows
         {
             return IsStatus(LevelStatus.Playing);
         }
+        public void OnTimeExpired()
+        {
+            if (IsPlaying()) GameOver();
+        }
 
         public int GetTotalArrowLineNum()
         {

@@ -17,7 +17,7 @@ public class TexturePacker
 {
     public static string RESTYPE = "";
     // 请确保此路径指向您本地的 TexturePacker 命令行工具
-    public const string TEXTURE_CMD = @"D:\UnityGame\MiniGame\ArrowsGame\Tools\TexturePacker\bin\TexturePacker";
+    public const string TEXTURE_CMD = @"D:\UnityGame\MiniGame\ArrowsGameGit\ArrowsGame\Tools\TexturePacker\bin\TexturePacker";
 
     // 缓存旧的 Sprite 信息：key=纹理路径, value=字典(key=sprite名称, value=旧的SpriteMetaData)
     private static Dictionary<string, Dictionary<string, SpriteMetaData>> oldSpriteBackups = new Dictionary<string, Dictionary<string, SpriteMetaData>>();

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<globalExport>
+		<excelExport filePath="test.xlsx">
+			<exportChannel exportConfigPath ="test_export_client.xml"></exportChannel>
+			<exportChannel exportConfigPath ="test_export_server.xml"></exportChannel>
+		</excelExport>
+	</globalExport>
+	
+	<singleExport >
+		
+	</singleExport>
+</root>

@@ -1,5 +1,6 @@
 using Framework.Runtime;
 using Game.Modules.GModuleManage;
+using Game.Modules.GModuleInventory;
 using System;
 
 namespace Game.Modules.GModuleProgression
@@ -13,7 +14,7 @@ namespace Game.Modules.GModuleProgression
         {
             var archive = GameArchive.Main == null ? null : GameArchive.Main.ProgressionArchive;
             if (archive == null) return;
-            archive.AddCoins(GetLevelCoins(levelId));
+            AddItem(GameProgressionConstant.PropCoin, GetLevelCoins(levelId));
             archive.AddAchievementProgress("levels_passed", 1);
             if (IsChestLevel(levelId)) MessageDispatcher.Ins.Dispatch(MessageCode.msg_open_progression_chest, levelId);
             MessageDispatcher.Ins.Dispatch(MessageCode.msg_on_progression_rewarded, levelId);
@@ -23,23 +24,31 @@ namespace Game.Modules.GModuleProgression
             coins = 0; propId = 0;
             var archive = GameArchive.Main == null ? null : GameArchive.Main.ProgressionArchive;
             if (archive == null || !IsChestLevel(levelId) || !archive.ClaimChest(levelId)) return false;
-            if (levelId % 20 == 0) { coins = 100 + levelId * 2; archive.AddCoins(coins); }
-            else { propId = (levelId / 10) % 3 == 1 ? GameProgressionConstant.PropUndo : (levelId / 10) % 3 == 2 ? GameProgressionConstant.PropClear : GameProgressionConstant.PropHint; archive.AddProp(propId, 1); }
+            if (levelId % 20 == 0) { coins = 100 + levelId * 2; AddItem(GameProgressionConstant.PropCoin, coins); }
+            else { propId = (levelId / 10) % 3 == 1 ? GameProgressionConstant.PropTime : (levelId / 10) % 3 == 2 ? GameProgressionConstant.PropClear : GameProgressionConstant.PropTip; AddItem(propId, 1); }
             return true;
         }
         public static bool TryConsumeProp(int propId)
         {
-            var consumed = GameArchive.Main != null && GameArchive.Main.ProgressionArchive != null && GameArchive.Main.ProgressionArchive.ConsumeProp(propId);
+            var consumed = TryConsumeItem(propId);
             if (consumed) MessageDispatcher.Ins.Dispatch(MessageCode.msg_on_progression_changed);
             return consumed;
         }
-        public static bool TrySpendCoins(int count) { return GameArchive.Main != null && GameArchive.Main.ProgressionArchive != null && GameArchive.Main.ProgressionArchive.SpendCoins(count); }
-        public static int GetPropCount(int propId) { return GameArchive.Main == null || GameArchive.Main.ProgressionArchive == null ? 0 : GameArchive.Main.ProgressionArchive.GetPropCount(propId); }
+        public static int GetPropCount(int propId) => GameInventoryDataHandler.Ins.GetItemHasCount(propId);
+        public static bool TryConsumeItem(int itemId, int count = 1)
+        {
+            var result = GameInventoryDataHandler.Ins.TakeOutItem(itemId, count);
+            if (result.operateCount < count) return false;
+            var cfg = GameInventoryDataHandler.Ins.GetItemInfoCfg(itemId);
+            if (cfg != null && cfg.recoverySeconds > 0 && GameArchive.Main != null)
+                GameArchive.Main.RoleArchive.SetItemRecoveryTime(itemId, DateTimeOffset.Now.ToUnixTimeSeconds() + cfg.recoverySeconds);
+            return true;
+        }
+        public static void AddItem(int itemId, int count) => GameInventoryDataHandler.Ins.StoreItem(itemId, count, null);
+        public static long GetItemRecoveryTime(int itemId) => GameArchive.Main?.RoleArchive?.GetItemRecoveryTime(itemId, 0) ?? 0;
         public static void AddProp(int propId, int count)
         {
-            if (GameArchive.Main == null || GameArchive.Main.ProgressionArchive == null) return;
-            GameArchive.Main.ProgressionArchive.AddProp(propId, count);
-            MessageDispatcher.Ins.Dispatch(MessageCode.msg_on_progression_changed);
+            AddItem(propId, count);
         }
         public static void AcquireProp(int propId, Action<bool> completed)
         {
@@ -52,10 +61,13 @@ namespace Game.Modules.GModuleProgression
                 });
                 return;
             }
-            var acquired = TrySpendCoins(PropCoinCost);
+            var acquired = TryConsumeItem(GameProgressionConstant.PropCoin, PropCoinCost);
             if (acquired) AddProp(propId, 1);
             completed?.Invoke(acquired);
         }
-        public static bool IsPropBarVisible(int levelId) { return levelId >= GameProgressionConstant.NewPlayerHiddenUntilLevel; }
+        public static bool IsPropBarVisible(int levelId)
+        {
+            return levelId >= GameManageDataHandler.Ins.GetGameMainCfg().propUnLockLv;
+        }
     }
 }

@@ -70,7 +70,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5175504216389151874, guid: 1b565a387a45193498538c2305d9124c, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -81,7 +81,7 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 0.5
   m_Atlas: {fileID: 2317082460764182132, guid: 9dd80415595f9204a986754068687fa8, type: 3}
-  m_SpriteName: game_panel_num
+  m_SpriteName: 
   m_IsAutoSnap: 0
   isShowWhiteSource: 0
   raycastConsiderAlpha: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
   m_Atlas: {fileID: 4657893262380255686, guid: 5779447eab95b6c48a961617ebd68751, type: 3}
-  m_SpriteName: img_coins
+  m_SpriteName: 
   m_IsAutoSnap: 0
   isShowWhiteSource: 0
   raycastConsiderAlpha: 0

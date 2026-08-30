@@ -1,0 +1,556 @@
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CopyComplete
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ref\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CopyComplete
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CopyComplete
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx\uf-xlsx\uf-xlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CopyComplete
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CopyComplete
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+E:\UNITY\graduation defense\Project\tools\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\uf-xlsx\uf-xlsx2\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_Content.g.cs
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_Content.g.cs
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CopyComplete
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+E:\UNITY\graduation defense\Tools\UFXlsx\Project\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_Content.g.cs
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CopyComplete
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+E:\UNITY\框架\YaoXing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_Content.g.cs
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CopyComplete
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+E:\GameDevlop\G-1\Client\trunk\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_Content.g.cs
+D:\QcUsers\Administrator\Desktop\UFXlsx\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CopyComplete
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_Content.g.cs
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CopyComplete
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+E:\GameDevlop\G-2\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_Content.g.cs
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.Up2Date
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+D:\work\Unity\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_Content.g.cs
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.Up2Date
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+D:\work\Unity\OneSecondLife\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_Content.g.cs
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.Up2Date
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+D:\work\UnityGame\Game01\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_Content.g.cs
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.Up2Date
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+D:\Work\Framework\V1_0_0\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.exe
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.deps.json
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.runtimeconfig.json
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\UFXlsx.pdb
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Enums.NET.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\MathNet.Numerics.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OOXML.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXml4Net.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.OpenXmlFormats.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\NPOI.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\System.Security.Cryptography.Xml.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\bin\Debug\net6.0-windows\LitJson.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.AssemblyReference.cache
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\App.g.cs
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_Content.g.cs
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.cache
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx_MarkupCompile.lref
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.g.resources
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfoInputs.cache
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.AssemblyInfo.cs
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.CoreCompileInputs.cache
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.csproj.Up2Date
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\refint\UFXlsx.dll
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.pdb
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\UFXlsx.genruntimeconfig.cache
+D:\Work\TangPing\Tools\UFXlsx\UFXlsx\obj\Debug\net6.0-windows\ref\UFXlsx.dll

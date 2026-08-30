@@ -337,6 +337,8 @@ namespace Game.Modules.GModuleInventory
         public string itemName;
         public int itemType;
         public int maxHoldCount;
+        // 配置表可配置：每次恢复间隔（秒），0 表示不自动恢复。
+        public int recoverySeconds;
         public int maxPerStackCount;
         public int quality; 
         public int maxStackCount; // 最大对数 -1为无穷

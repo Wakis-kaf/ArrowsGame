@@ -1,7 +1,7 @@
 ---
 type: agent-handoff
 status: active
-updated: 2026-08-28
+updated: 2026-08-29
 ---
 
 # 当前交接卡
@@ -34,6 +34,10 @@ updated: 2026-08-28
 - 下一关切换的 `GameArrowsLoadingOption` 已设置最短显示 0.2 秒；`GameLoading` 以 `minDisplayTime` 通用字段和非缩放时间延迟关闭，消除缓存命中时 Loading 的闪帧。
 - 已在 `Project/Packages/manifest.json` 添加 MCP for Unity 9.7.3，Unity 已解析包缓存并编译 `MCPForUnity.Runtime.dll`；仓库 `.mcp.json` 与 Codex 用户配置都已注册 `unityMCP` HTTP 端点 `http://127.0.0.1:8080/mcp`。
 - 当前 MCP CLI 因 Windows `C:\Users` ACL 安全校验无法创建协调端点，尚未完成本次代码变更后的重新索引；需修复运行环境后执行 `index_repository`。
+- 本次已补充 `PropMonitor` 数量/图标/恢复倒计时监听；局内道具消费流程已修正；`ubtnUndo` 已替换为 `ubtnTime`，支持配置关卡限时和 30 秒加时。当前未执行 Unity 编译，需关闭占用项目的 Unity 实例后验证。
+- 追加修正：全局金币/体力改由 `ArchiveProgression` 提供，入口两个监控器按 `PropMonitor_Coin/Heart` 自动绑定 ID；全局体力进入关卡时消耗并按恢复时间自动回充；入口刷新监听进度事件。`Assembly-CSharp` 已通过 dotnet build（0 错误）。
+- 最新修正：`PropMonitor` 已改为纯配置/字段驱动，统一从 `GameInventoryDataHandler` 读取数量、上限、图标和恢复时间；金币、体力、Tip、加时、清除均通过通用道具接口存取/扣除，不再按道具 ID 分支。`Assembly-CSharp` 再次通过（0 错误）。
+- 本阶段修正：继续游戏通过 `ArchiveLevel.IsGamingLevel` 跳过体力扣除；Phone GM 使用现有输入控件支持 `道具id:数量`，通过通用背包接口增加道具，并在手机端按钮显示“增加道具”。`Assembly-CSharp` 编译通过（0 错误）。
 - Unity 2022.3.62f2 批处理验证因项目已被另一 Unity 实例锁定而未执行到脚本编译；需关闭编辑器后重试。
 
 ## 下一步

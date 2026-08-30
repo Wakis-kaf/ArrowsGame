@@ -10,6 +10,7 @@ using Game.Modules.GModuleScene;
 using Game.Modules.GModuleArrows;
 using System;
 using Game.Modules.GModuleManage;
+using Game.Modules.GModuleProgression;
 namespace Game.Modules
 {
     public class PlayEntryPanel : Panel
@@ -69,6 +70,9 @@ namespace Game.Modules
 
         private void OnStartClick()
         {
+            var levelId = GameArchive.Main.LevelArchive.GetCurLevelId();
+            // 恢复进行中的关卡不重复扣除体力。
+            if (!GameArchive.Main.LevelArchive.IsGamingLevel(levelId) && !GameProgressionService.TryConsumeItem(GameProgressionConstant.PropPower)) return;
             CloseWindow();
             DispatchEevent(MessageCode.msg_entryGamePlay);
 

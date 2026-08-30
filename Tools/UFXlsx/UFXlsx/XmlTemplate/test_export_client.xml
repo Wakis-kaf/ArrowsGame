@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<exportType>lua</exportType>
+	<exportSheet sheetName="物品配置" exportField ="goodsItems" expotPath="goodsItem.lua">
+		<keyRow>3</keyRow>
+		<dataRowBegin>6</dataRowBegin>
+		<arrayExport></arrayExport>
+		<luaExportConfig></luaExportConfig>
+	</exportSheet>
+	<exportSheet sheetName="物品规则" exportField ="goodsRule" expotPath="goodsItem.lua">
+		<keyRow>3</keyRow>
+		<dataRowBegin>5</dataRowBegin>
+		<arrayExport></arrayExport>
+		<luaExportConfig></luaExportConfig>
+	</exportSheet>
+</root>

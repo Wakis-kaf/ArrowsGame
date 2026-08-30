@@ -2,7 +2,7 @@
 
 "Flag.png":
 {
-	"frame": {"x":0,"y":792,"w":64,"h":64},
+	"frame": {"x":198,"y":326,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -10,7 +10,7 @@
 },
 "Hand.png":
 {
-	"frame": {"x":0,"y":726,"w":64,"h":64},
+	"frame": {"x":392,"y":264,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -18,7 +18,7 @@
 },
 "Heart.png":
 {
-	"frame": {"x":0,"y":660,"w":64,"h":64},
+	"frame": {"x":326,"y":264,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -26,7 +26,7 @@
 },
 "Heart_Outline.png":
 {
-	"frame": {"x":0,"y":594,"w":64,"h":64},
+	"frame": {"x":132,"y":396,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -34,7 +34,7 @@
 },
 "Home.png":
 {
-	"frame": {"x":0,"y":528,"w":64,"h":64},
+	"frame": {"x":132,"y":330,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -42,7 +42,7 @@
 },
 "Light_Bulb_On.png":
 {
-	"frame": {"x":0,"y":462,"w":64,"h":64},
+	"frame": {"x":260,"y":260,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -50,7 +50,7 @@
 },
 "Minus.png":
 {
-	"frame": {"x":0,"y":396,"w":64,"h":64},
+	"frame": {"x":130,"y":264,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -58,7 +58,7 @@
 },
 "Play.png":
 {
-	"frame": {"x":0,"y":330,"w":64,"h":64},
+	"frame": {"x":390,"y":198,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -66,7 +66,7 @@
 },
 "Plus.png":
 {
-	"frame": {"x":0,"y":264,"w":64,"h":64},
+	"frame": {"x":390,"y":132,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -74,7 +74,7 @@
 },
 "Redo.png":
 {
-	"frame": {"x":0,"y":198,"w":64,"h":64},
+	"frame": {"x":392,"y":66,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -82,7 +82,7 @@
 },
 "Settings.png":
 {
-	"frame": {"x":0,"y":132,"w":64,"h":64},
+	"frame": {"x":392,"y":0,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -90,7 +90,7 @@
 },
 "Settings_Center.png":
 {
-	"frame": {"x":0,"y":66,"w":64,"h":64},
+	"frame": {"x":66,"y":390,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -98,19 +98,83 @@
 },
 "Settings_Center12.png":
 {
-	"frame": {"x":0,"y":0,"w":64,"h":64},
+	"frame": {"x":0,"y":390,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
 	"sourceSize": {"w":64,"h":64}
+},
+"prop_achievement.png":
+{
+	"frame": {"x":260,"y":130,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"prop_box.png":
+{
+	"frame": {"x":130,"y":132,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"prop_clean.png":
+{
+	"frame": {"x":262,"y":0,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"prop_coin.png":
+{
+	"frame": {"x":132,"y":0,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"prop_heart.png":
+{
+	"frame": {"x":0,"y":260,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"prop_revoke.png":
+{
+	"frame": {"x":0,"y":130,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"prop_time.png":
+{
+	"frame": {"x":0,"y":130,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"prop_tip.png":
+{
+	"frame": {"x":0,"y":0,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
 }},
 "meta": {
 	"app": "http://www.texturepacker.com",
 	"version": "1.0",
 	"image": "CommonIcon_Tex.png",
 	"format": "RGBA8888",
-	"size": {"w":64,"h":1024},
+	"size": {"w":512,"h":512},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:d0b8cf04e376ec48cd3753facccdb66e$"
+	"smartupdate": "$TexturePacker:SmartUpdate:9814dad69d71c1d457c2babedffb1516$"
 }
 }

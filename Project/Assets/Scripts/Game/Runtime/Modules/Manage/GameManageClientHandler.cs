@@ -64,7 +64,7 @@ namespace Game.Modules.GModuleManage
             MessageDispatcher.Ins.Dispatch(MessageCode.msg_on_mainArchiveLoaded, m_GameMainArchive);
             if (m_GameMainArchive.IsNewCreateArchive)
             {
-                // TryAddNewGameItems();
+                TryAddNewGameItems();
 
             }
             MessageDispatcher.Ins.Dispatch(MessageCode.msg_on_mainArchiveChecked, m_GameMainArchive);
@@ -73,12 +73,12 @@ namespace Game.Modules.GModuleManage
         }
         private void TryAddNewGameItems()
         {
-            // var initItems = GameManageDataHandler.Ins.GetGameMainCfg().initItems;
-            // for (int i = 0; i < initItems.Length; i++)
-            // {
-            // var item = initItems[i];
-            // GameInventoryDataHandler.Ins.StoreItem(item.initItemId, item.initItemCount);
-            // }
+            var initItems = GameManageDataHandler.Ins.GetGameMainCfg().initItems;
+            for (int i = 0; i < initItems.Count; i++)
+            {
+                var item = initItems[i];
+                GameInventoryDataHandler.Ins.StoreItem(item.initItemId, item.initItemCount);
+            }
         }
 
 
