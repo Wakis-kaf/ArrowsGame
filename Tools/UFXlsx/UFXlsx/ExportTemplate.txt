@@ -1,0 +1,11 @@
+﻿**DECLARE**
+--[[
+	exportfileNmae: **EXPORTFILENAME**
+	**COMMENT**
+--]]
+return **CONTENT**
+
+if XLSTP  == nil then
+   XLSTP = {}
+
+XLSTP .**EXPORTFILENAME** = **CONTENT**

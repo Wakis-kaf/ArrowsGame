@@ -1,0 +1,13 @@
+﻿{
+	"globalExportList" : [],
+	"singleExportList":[
+		{
+			"excelPath":"物品配置.xlsx",
+			"exportChannelList":[
+				{
+					"exportConfigPath":"物品配置_export_client.json"
+				}
+			]
+		}
+	]
+}

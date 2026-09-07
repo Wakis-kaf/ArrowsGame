@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>解密游戏点阵生成器</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 20px; background: #f5f5f7; color: #333; }
+        .container { display: flex; gap: 20px; max-width: 1300px; margin: 0 auto; }
+        .controls { flex: 1.2; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); max-height: 90vh; overflow-y: auto; }
+        .preview-area { flex: 1.5; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); display: flex; flex-direction: column; align-items: center; }
+        .form-group { margin-bottom: 12px; }
+        .form-group.checkbox-group { display: flex; align-items: center; gap: 8px; cursor: pointer; margin-bottom: 8px; }
+        .form-group.checkbox-group input { width: auto; margin: 0; }
+        label { display: block; margin-bottom: 4px; font-weight: bold; font-size: 13px; }
+        input, select { width: 100%; padding: 6px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; font-size: 13px; }
+        button { background: #0071e3; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; width: 100%; font-size: 14px; margin-top: 5px; }
+        button:hover { background: #0077ed; }
+        canvas { border: 1px dashed #ccc; background: #fafafa; max-width: 100%; height: auto; cursor: grab; }
+        canvas:active { cursor: grabbing; }
+        textarea { width: 100%; height: 180px; margin-top: 15px; font-family: monospace; font-size: 12px; box-sizing: border-box; resize: vertical; }
+        .hint { font-size: 11px; color: #666; margin-top: 3px; }
+        .shape-panel { display: none; border-top: 1px dashed #eee; padding-top: 10px; margin-top: 10px; }
+        .active { display: block; }
+        .button-group { display: flex; gap: 10px; width: 100%; margin-top: 10px; }
+        .button-group button { margin-top: 0; flex: 1; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="controls">
+        <h2>图形点阵设置</h2>
+        
+        <div class="form-group">
+            <label>生成模式</label>
+            <select id="genMode" onchange="toggleMode()">
+                <option value="preset">内置形状预设 (Presets)</option>
+                <option value="image">上传图片采样 (Image Sampling)</option>
+            </select>
+        </div>
+
+        <div id="presetPanel" class="shape-panel active">
+            <div class="form-group">
+                <label>预设形状选择</label>
+                <select id="presetType" onchange="togglePresetShape()">
+                    <option value="grid">方形网格 (Grid)</option>
+                    <option value="circle">圆形 (Circle)</option>
+                    <option value="ring">空心圆环 (Ring)</option>
+                    <option value="triangle">三角形 (Triangle)</option>
+                    <option value="diamond">菱形 (Diamond)</option>
+                    <option value="heart">正向心形 (Heart)</option>
+                    <option value="star">标准五角星 (Star)</option>
+                    <option value="cross">十字架 (Cross)</option>
+                </select>
+            </div>
+
+            <div id="pGrid" class="shape-panel active">
+                <div class="form-group"><label>目标宽度 (像素格数)</label><input type="number" id="gCols" value="40" oninput="generate()"></div>
+                <div class="form-group"><label>目标高度 (像素格数)</label><input type="number" id="gRows" value="60" oninput="generate()"></div>
+                <div class="form-group checkbox-group"><input type="checkbox" id="gFill" checked onchange="generate()"><label for="gFill" style="margin:0;">实心填充</label></div>
+            </div>
+
+            <div id="pCircle" class="shape-panel">
+                <div class="form-group"><label>圆形网格半径 (格数)</label><input type="number" id="cRadius" value="12" oninput="generate()"></div>
+                <div class="form-group checkbox-group"><input type="checkbox" id="cFill" checked onchange="generate()"><label for="cFill" style="margin:0;">完全实心填充</label></div>
+            </div>
+
+            <div id="pRing" class="shape-panel">
+                <div class="form-group"><label>内圆半径 (格数)</label><input type="number" id="rInner" value="8" oninput="generate()"></div>
+                <div class="form-group"><label>外圆半径 (格数)</label><input type="number" id="rOuter" value="15" oninput="generate()"></div>
+            </div>
+
+            <div id="pTriangle" class="shape-panel">
+                <div class="form-group"><label>底边宽度 (格数)</label><input type="number" id="tBase" value="20" oninput="generate()"></div>
+                <div class="form-group"><label>高度 (格数)</label><input type="number" id="tHeight" value="20" oninput="generate()"></div>
+                <div class="form-group checkbox-group"><input type="checkbox" id="tFill" checked onchange="generate()"><label for="tFill" style="margin:0;">内部填充</label></div>
+            </div>
+
+            <div id="pDiamond" class="shape-panel">
+                <div class="form-group"><label>横向半宽 (格数)</label><input type="number" id="dWidth" value="15" oninput="generate()"></div>
+                <div class="form-group"><label>纵向半高 (格数)</label><input type="number" id="dHeight" value="15" oninput="generate()"></div>
+                <div class="form-group checkbox-group"><input type="checkbox" id="dFill" checked onchange="generate()"><label for="dFill" style="margin:0;">内部填充</label></div>
+            </div>
+
+            <div id="pHeart" class="shape-panel">
+                <div class="form-group"><label>心形整体缩放</label><input type="number" id="hScale" value="10" oninput="generate()"></div>
+                <div class="form-group"><label>环形厚度 (格数)</label><input type="number" id="hThickness" value="3" min="1" oninput="generate()"></div>
+                <div class="form-group checkbox-group"><input type="checkbox" id="hFill" checked onchange="generate()"><label for="hFill" style="margin:0;">完全实心填充</label></div>
+            </div>
+
+            <div id="pStar" class="shape-panel">
+                <div class="form-group"><label>外顶点网格半径 (格数)</label><input type="number" id="sOuterR" value="15" oninput="generate()"></div>
+                <div class="form-group"><label>环形厚度 (格数)</label><input type="number" id="sThickness" value="3" min="1" oninput="generate()"></div>
+                <div class="form-group checkbox-group"><input type="checkbox" id="sFill" checked onchange="generate()"><label for="sFill" style="margin:0;">完全实心填充</label></div>
+            </div>
+
+            <div id="pCross" class="shape-panel">
+                <div class="form-group"><label>单臂延伸长度 (格数)</label><input type="number" id="crLength" value="15" oninput="generate()"></div>
+                <div class="form-group"><label>躯干粗细宽度 (格数)</label><input type="number" id="crWidth" value="5" oninput="generate()"></div>
+            </div>
+        </div>
+
+        <div id="imagePanel" class="shape-panel">
+            <div class="form-group">
+                <label>上传剪影图片</label>
+                <input type="file" id="imageInput" accept="image/*">
+            </div>
+            <div class="form-group"><label>横向采样间隔 (像素)</label><input type="number" id="imgStepX" value="20" oninput="generate()"></div>
+            <div class="form-group"><label>纵向采样间隔 (像素)</label><input type="number" id="imgStepY" value="20" oninput="generate()"></div>
+            <div class="form-group"><label>颜色黑白阈值 (0-255)</label><input type="number" id="threshold" value="128" oninput="generate()"></div>
+        </div>
+
+        <div class="form-group" style="margin-top: 15px; border-top: 1px solid #eee; padding-top: 15px;">
+            <label>画布渲染缩放参考</label>
+            <input type="number" id="gridSpacing" value="10" min="2" max="100" onchange="draw()">
+        </div>
+
+        <div class="form-group checkbox-group">
+            <input type="checkbox" id="minifyJson" checked onchange="updateJsonOutput()">
+            <label for="minifyJson" style="margin: 0; cursor: pointer;">简略输出 JSON</label>
+        </div>
+        <div class="form-group checkbox-group">
+            <input type="checkbox" id="outputColor" onchange="updateJsonOutput()">
+            <label for="outputColor" style="margin: 0; cursor: pointer;">输出颜色数据 (r, g, b, a)</label>
+        </div>
+
+        <div class="hint" style="color: #0071e3;">💡 提示：预览网格线较密时，可将“画布渲染缩放参考”数值调小以便更清晰地查看整体形状。</div>
+    </div>
+
+    <div class="preview-area">
+        <h2>画布预览</h2>
+        <canvas id="previewCanvas" width="500" height="500"></canvas>
+        <textarea id="outputData" readonly placeholder="生成的 JSON 数据将显示在这里..."></textarea>
+        <div class="button-group">
+            <button onclick="copyData()" style="background: #34c759;">复制 JSON 数据</button>
+            <button onclick="exportJsonFile()" style="background: #ff9500;">导出 JSON 文件</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const canvas = document.getElementById('previewCanvas');
+    const ctx = canvas.getContext('2d');
+    let generatedPoints = [];
+    let loadedImage = null;
+
+    let scale = 1.0, panX = 0, panY = 0, isDragging = false, startX, startY;
+
+    document.getElementById('imageInput').addEventListener('change', function(e) {
+        const reader = new FileReader();
+        reader.onload = function(event) {
+            const img = new Image();
+            img.onload = function() { loadedImage = img; generate(); };
+            img.src = event.target.result;
+        };
+        if (e.target.files[0]) reader.readAsDataURL(e.target.files[0]);
+    });
+
+    canvas.addEventListener('mousedown', e => { isDragging = true; startX = e.clientX - panX; startY = e.clientY - panY; });
+    canvas.addEventListener('mousemove', e => { if (!isDragging) return; panX = e.clientX - startX; panY = e.clientY - startY; draw(); });
+    canvas.addEventListener('mouseup', () => isDragging = false);
+    canvas.addEventListener('mouseleave', () => isDragging = false);
+    canvas.addEventListener('wheel', e => {
+        e.preventDefault();
+        const oldScale = scale;
+        scale = e.deltaY < 0 ? scale * 1.1 : scale / 1.1;
+        scale = Math.max(0.1, Math.min(scale, 15));
+        panX = e.offsetX - (e.offsetX - panX) * (scale / oldScale);
+        panY = e.offsetY - (e.offsetY - panY) * (scale / oldScale);
+        draw();
+    });
+
+    function toggleMode() {
+        const mode = document.getElementById('genMode').value;
+        document.getElementById('presetPanel').style.display = mode === 'preset' ? 'block' : 'none';
+        document.getElementById('imagePanel').style.display = mode === 'image' ? 'block' : 'none';
+        generate();
+    }
+
+    function togglePresetShape() {
+        const shape = document.getElementById('presetType').value;
+        ['pGrid', 'pCircle', 'pRing', 'pTriangle', 'pDiamond', 'pHeart', 'pStar', 'pCross'].forEach(id => document.getElementById(id).style.display = 'none');
+        document.getElementById('p' + shape.charAt(0).toUpperCase() + shape.slice(1)).style.display = 'block';
+        generate();
+    }
+
+    function generate() {
+        const mode = document.getElementById('genMode').value;
+        if (mode === 'image') { 
+            processImage(); 
+        } else { 
+            processPreset(); 
+        }
+    }
+
+    function isPointInPoly(pt, poly) {
+        let inside = false;
+        for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+            const xi = poly[i].x, yi = poly[i].y;
+            const xj = poly[j].x, yj = poly[j].y;
+            const intersect = ((yi > pt.y) !== (yj > pt.y)) && (pt.x < (xj - xi) * (pt.y - yi) / (yj - yi) + xi);
+            if (intersect) inside = !inside;
+        }
+        return inside;
+    }
+
+    function processPreset() {
+        generatedPoints = [];
+        const shape = document.getElementById('presetType').value;
+
+        const cols = parseInt(document.getElementById('gCols').value) || 0;
+        const rows = parseInt(document.getElementById('gRows').value) || 0;
+        const cRadius = parseFloat(document.getElementById('cRadius').value) || 0;
+        const rOuter = parseFloat(document.getElementById('rOuter').value) || 0;
+        const tBase = parseInt(document.getElementById('tBase').value) || 0;
+        const tHeight = parseInt(document.getElementById('tHeight').value) || 0;
+        const dWidth = parseFloat(document.getElementById('dWidth').value) || 0;
+        const dHeight = parseFloat(document.getElementById('dHeight').value) || 0;
+        const hScale = parseFloat(document.getElementById('hScale').value) || 0;
+        const sOuterR = parseFloat(document.getElementById('sOuterR').value) || 0;
+        const crLength = parseInt(document.getElementById('crLength').value) || 0;
+
+        const maxDimension = Math.max(cols, rows, cRadius, rOuter, tBase, tHeight, dWidth, dHeight, hScale * 3, sOuterR, crLength, 50);
+        const rangeX = maxDimension + 5;
+        const rangeY = maxDimension + 5;
+
+        let outerPoly = [];
+        let innerPoly = [];
+        if (shape === 'star') {
+            const outerR = parseFloat(document.getElementById('sOuterR').value) || 12;
+            const thickness = parseFloat(document.getElementById('sThickness').value) || 2;
+            const innerR = outerR * (Math.sin(Math.PI / 10) / Math.sin(7 * Math.PI / 10)); 
+            const tInnerR = Math.max(0, outerR - thickness) * (Math.sin(Math.PI / 10) / Math.sin(7 * Math.PI / 10));
+
+            for (let i = 0; i < 10; i++) {
+                const ang = (i * Math.PI / 5) - Math.PI / 2;
+                const rOut = (i % 2 === 0) ? outerR : innerR;
+                const rIn = (i % 2 === 0) ? Math.max(0, outerR - thickness) : tInnerR;
+                outerPoly.push({ x: rOut * Math.cos(ang), y: rOut * Math.sin(ang) });
+                innerPoly.push({ x: rIn * Math.cos(ang), y: rIn * Math.sin(ang) });
+            }
+        }
+
+        for (let gx = -rangeX; gx <= rangeX; gx++) {
+            for (let gy = -rangeY; gy <= rangeY; gy++) {
+                let keep = false;
+
+                if (shape === 'grid') {
+                    const isFill = document.getElementById('gFill').checked;
+                    const inBox = (gx >= 0 && gx < cols) && (gy >= 0 && gy < rows);
+                    if (inBox) {
+                        if (isFill) keep = true;
+                        else {
+                            if (gx === 0 || gx === cols - 1 || gy === 0 || gy === rows - 1) keep = true;
+                        }
+                    }
+                }
+                else if (shape === 'circle') {
+                    const r = parseFloat(document.getElementById('cRadius').value) || 8;
+                    const isFill = document.getElementById('cFill').checked;
+                    const dist = Math.sqrt(gx * gx + gy * gy);
+                    if (isFill) {
+                        if (dist <= r + 0.3) keep = true;
+                    } else {
+                        if (dist <= r + 0.3 && dist >= r - 0.7) keep = true;
+                    }
+                }
+                else if (shape === 'ring') {
+                    const rIn = parseFloat(document.getElementById('rInner').value) || 5;
+                    const rOut = parseFloat(document.getElementById('rOuter').value) || 9;
+                    const dist = Math.sqrt(gx * gx + gy * gy);
+                    if (dist <= rOut + 0.3 && dist >= rIn - 0.3) keep = true;
+                }
+                else if (shape === 'triangle') {
+                    const base = parseInt(document.getElementById('tBase').value) || 15;
+                    const height = parseInt(document.getElementById('tHeight').value) || 10;
+                    const isFill = document.getElementById('tFill').checked;
+                    const hY = gy + Math.floor(height / 2); 
+                    if (hY >= 0 && hY < height) {
+                        const rowWidth = base * (1 - hY / height);
+                        const inTriangle = Math.abs(gx) <= rowWidth / 2;
+                        if (inTriangle) {
+                            if (isFill) keep = true;
+                            else {
+                                if (Math.abs(gx) >= rowWidth / 2 - 1 || hY === 0) keep = true;
+                            }
+                        }
+                    }
+                }
+                else if (shape === 'diamond') {
+                    const dW = parseFloat(document.getElementById('dWidth').value) || 7;
+                    const dH = parseFloat(document.getElementById('dHeight').value) || 7;
+                    const isFill = document.getElementById('dFill').checked;
+                    const val = Math.abs(gx) / dW + Math.abs(gy) / dH;
+                    if (isFill) {
+                        if (val <= 1.05) keep = true;
+                    } else {
+                        if (val <= 1.05 && val >= 0.8) keep = true;
+                    }
+                }
+                else if (shape === 'heart') {
+                    const scaleSize = parseFloat(document.getElementById('hScale').value) || 7;
+                    const thickness = parseFloat(document.getElementById('hThickness').value) || 2;
+                    const isFill = document.getElementById('hFill').checked;
+                    const nx = gx / scaleSize;
+                    const ny = -gy / scaleSize; 
+                    const a = nx * nx + ny * ny - 1;
+                    const val = a * a * a - nx * nx * ny * ny * ny;
+                    if (isFill) {
+                        if (val <= 0) keep = true;
+                    } else {
+                        const innerScale = Math.max(0.5, scaleSize - thickness) / scaleSize;
+                        const inx = nx / innerScale;
+                        const iny = ny / innerScale;
+                        const innerA = inx * inx + iny * iny - 1;
+                        const innerVal = innerA * innerA * innerA - inx * inx * iny * iny * iny;
+                        if (val <= 0 && innerVal > 0) keep = true;
+                    }
+                }
+                else if (shape === 'star') {
+                    const isFill = document.getElementById('sFill').checked;
+                    const pt = { x: gx, y: gy };
+                    const inOuter = isPointInPoly(pt, outerPoly);
+                    const inInner = isPointInPoly(pt, innerPoly);
+                    if (isFill) {
+                        if (inOuter) keep = true;
+                    } else {
+                        if (inOuter && !inInner) keep = true;
+                    }
+                }
+                else if (shape === 'cross') {
+                    const len = parseInt(document.getElementById('crLength').value) || 8;
+                    const wid = parseInt(document.getElementById('crWidth').value) || 3;
+                    const hW = (wid - 1) / 2;
+                    const inHorizontal = Math.abs(gx) <= len && gy >= Math.ceil(-hW) && gy <= Math.floor(hW);
+                    const inVertical = Math.abs(gy) <= len && gx >= Math.ceil(-hW) && gx <= Math.floor(hW);
+                    if (inHorizontal || inVertical) keep = true;
+                }
+
+                if (keep) {
+                    generatedPoints.push({ x: gx, y: gy, r: 0, g: 113, b: 227, a: 255 });
+                }
+            }
+        }
+
+        draw();
+        updateJsonOutput();
+    }
+
+    function processImage() {
+        if (!loadedImage) { alert('请选择图片！'); return; }
+        generatedPoints = [];
+        const stepX = parseInt(document.getElementById('imgStepX').value) || 20;
+        const stepY = parseInt(document.getElementById('imgStepY').value) || 20;
+        const threshold = parseInt(document.getElementById('threshold').value) || 128;
+
+        const tempCanvas = document.createElement('canvas');
+        const tempCtx = tempCanvas.getContext('2d');
+        tempCanvas.width = loadedImage.width;
+        tempCanvas.height = loadedImage.height;
+        tempCtx.drawImage(loadedImage, 0, 0);
+
+        const imgData = tempCtx.getImageData(0, 0, tempCanvas.width, tempCanvas.height);
+        const data = imgData.data;
+
+        for (let j = 0; j < tempCanvas.height; j += stepY) {
+            for (let i = 0; i < tempCanvas.width; i += stepX) {
+                const index = (j * tempCanvas.width + i) * 4;
+                const r = data[index], g = data[index+1], b = data[index+2], a = data[index+3];
+                if ((0.299 * r + 0.587 * g + 0.114 * b) < threshold) {
+                    const gx = Math.floor(i / stepX);
+                    const gy = -Math.floor(j / stepY); 
+                    generatedPoints.push({ x: gx, y: gy, r: r, g: g, b: b, a: a });
+                }
+            }
+        }
+        draw();
+        updateJsonOutput();
+    }
+
+    function updateJsonOutput() {
+        const minify = document.getElementById('minifyJson').checked;
+        const outputColor = document.getElementById('outputColor').checked;
+        const textarea = document.getElementById('outputData');
+        
+        let outputList = generatedPoints.map(p => {
+            let item = { x: p.x, y: p.y };
+            if (outputColor) {
+                item.r = p.r;
+                item.g = p.g;
+                item.b = p.b;
+                item.a = p.a;
+            }
+            return item;
+        });
+
+        if (minify) {
+            textarea.value = "[\n" + outputList.map(p => "    " + JSON.stringify(p)).join(",\n") + "\n]";
+        } else {
+            textarea.value = JSON.stringify(outputList, null, 4);
+        }
+    }
+
+    function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.save();
+        ctx.translate(canvas.width / 2 + panX, canvas.height / 2 + panY);
+        ctx.scale(scale, scale);
+
+        const spacing = parseInt(document.getElementById('gridSpacing').value) || 25;
+
+        ctx.strokeStyle = '#f0f0f5';
+        ctx.lineWidth = 0.5;
+        for (let x = -canvas.width * 2; x < canvas.width * 2; x += spacing) {
+            ctx.beginPath(); ctx.moveTo(x, -canvas.height * 2); ctx.lineTo(x, canvas.height * 2); ctx.stroke();
+        }
+        for (let y = -canvas.height * 2; y < canvas.height * 2; y += spacing) {
+            ctx.beginPath(); ctx.moveTo(-canvas.width * 2, y); ctx.lineTo(canvas.width * 2, y); ctx.stroke();
+        }
+
+        ctx.strokeStyle = '#d1d1d6';
+        ctx.lineWidth = 1.5;
+        ctx.beginPath(); ctx.moveTo(0, -canvas.height * 2); ctx.lineTo(0, canvas.height * 2); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(-canvas.width * 2, 0); ctx.lineTo(canvas.width * 2, 0); ctx.stroke();
+
+        generatedPoints.forEach((p) => {
+            const px = p.x * spacing;
+            const py = -p.y * spacing; 
+            
+            ctx.fillStyle = `rgba(${p.r}, ${p.g}, ${p.b}, ${p.a / 255})`;
+            ctx.beginPath();
+            ctx.arc(px, py, Math.max(1, 3), 0, Math.PI * 2);
+            ctx.fill();
+
+            ctx.fillStyle = '#86868b';
+            ctx.font = '9px monospace';
+            ctx.fillText(`(${p.x},${p.y})`, px + 5, py - 2);
+        });
+        ctx.restore();
+    }
+
+    function copyData() {
+        const txt = document.getElementById('outputData');
+        txt.select();
+        document.execCommand('copy');
+    }
+
+   async function exportJsonFile() {
+    const txt = document.getElementById('outputData').value;
+    if (!txt) return;
+    
+    if ('showSaveFilePicker' in window) {
+        try {
+            const handle = await window.showSaveFilePicker({
+                suggestedName: 'dot_matrix.json',
+                types: [{
+                    description: 'JSON Files',
+                    accept: { 'application/json': ['.json'] }
+                }]
+            });
+            const writable = await handle.createWritable();
+            await writable.write(txt);
+            await writable.close();
+        } catch (err) {
+            if (err.name !== 'AbortError') {
+                console.error(err);
+            }
+        }
+    } else {
+        const blob = new Blob([txt], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'dot_matrix.json';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+}
+
+    window.onload = () => { generate(); };
+</script>
+</body>
+</html>
