@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Point
+    uniqueID: 2896177355
+    locked: 0
+  - name: Line
+    uniqueID: 3066638033
+    locked: 0

@@ -4,6 +4,7 @@ using DG.Tweening.Plugins.Options;
 using Framework.Runtime.Config;
 using Framework.Runtime.UI;
 using System;
+using UnityEngine;
 
 namespace Framework.Runtime
 {
@@ -13,6 +14,8 @@ namespace Framework.Runtime
         private bool enableCreate = false;
         private Panel m_LoadingPanel;
         private GameLoadingOption needLoadingOption;
+        private float m_LoadingOpenedTime;
+        private Tween m_CloseDelayTween;
 
         public GameLoading()
         {
@@ -45,10 +48,18 @@ namespace Framework.Runtime
 
         public void CloseLoading()
         {
-            if (m_LoadingPanel != null)
-            {
-                m_LoadingPanel.CloseWindow();
-            }
+            if (m_LoadingPanel == null) return;
+            var remain = needLoadingOption == null ? 0f : needLoadingOption.minDisplayTime - (Time.unscaledTime - m_LoadingOpenedTime);
+            if (remain <= 0f) { CloseLoadingImmediately(); return; }
+            m_CloseDelayTween?.Kill();
+            m_CloseDelayTween = DOVirtual.DelayedCall(remain, CloseLoadingImmediately, true);
+        }
+
+        private void CloseLoadingImmediately()
+        {
+            m_CloseDelayTween?.Kill();
+            m_CloseDelayTween = null;
+            m_LoadingPanel?.CloseWindow();
         }
 
 
@@ -110,13 +121,16 @@ namespace Framework.Runtime
         private void OpenLoadingCreate()
         {
             if (!enableCreate) return;
+            m_CloseDelayTween?.Kill();
+            m_CloseDelayTween = null;
             if (m_LoadingPanel != null && m_LoadingPanel.GetType() != needLoadingOption.loadingPanelType)
             {
-                CloseLoading();
+                CloseLoadingImmediately();
             }
             Type openLoadintType = needLoadingOption.loadingPanelType;
             m_LoadingPanel = PanelManager.Ins.OpenPanel(openLoadintType, GlobalConstant.PATH_RESOURCES_GAME_LOADING_PANEL,
                         GlobalConstant.LAYER_LOADING);
+            m_LoadingOpenedTime = Time.unscaledTime;
             if (needLoadingOption != null)
             {
                 m_LoadingPanel.SetData(this.needLoadingOption);
@@ -133,6 +147,7 @@ namespace Framework.Runtime
         public int minValue = 0;
         public float targetValue;
         public float timer;
+        public float minDisplayTime;
         public string tipText = "";
         public Action<float> updateCb;
         public Type loadingPanelType = typeof(GameLoadingPanel);

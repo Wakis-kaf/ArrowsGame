@@ -39,6 +39,7 @@ namespace Game.Modules.GModuleArrows
         public float pointSpaceY;
         public bool isHideUnOccupiedPoint;
         public bool isPointColorful;
+        public int timeLimitSeconds;
     }
     public class CfgLevelAnimArgs
     {

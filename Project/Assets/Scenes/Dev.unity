@@ -484,7 +484,7 @@ MonoBehaviour:
   isRelativePlatformDir: 1
   devPlatformDir: ../../Platform
   runInBackground: 1
-  platformDir: D:/UnityGame/MiniGame/ArrowsGame/Project/Assets\../../Platform
+  platformDir: D:/learn/UnityGame/ArrowsGame/Project/Assets\../../Platform
   hotCodeModel: 0
   enableEditorResLoad: 1
   enableResourcesResLoad: 1
@@ -498,6 +498,7 @@ MonoBehaviour:
   isReceiveUnityLog: 0
   enableArchiveEncrypt: 0
   frameRate: 60
+  onLoadingOverMsg: msg_mainGame_start
 --- !u!114 &553584897
 MonoBehaviour:
   m_ObjectHideFlags: 0

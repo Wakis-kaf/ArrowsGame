@@ -14,6 +14,7 @@ namespace Game.Modules.GModuleArrows
 {
 	public class ArrowsGameStage : GameStage
 	{
+		private ArrowsWrongClickPostProcess m_WrongClickPostProcess;
 		#region PrefabBinder 自动引用区域 开始
 		public UnityEngine.Transform transArrowsRoot => EntityPrefabBinder?.GetObj<UnityEngine.Transform>("transArrowsRoot");
 		public UnityEngine.Transform transPointsRoot => EntityPrefabBinder?.GetObj<UnityEngine.Transform>("transPointsRoot");
@@ -34,7 +35,14 @@ namespace Game.Modules.GModuleArrows
 			MessageDispatcher.Ins.Subscribe<float, bool>(MessageCode.msg_set_camera_zoom, OnSetCameraZoom);
 			MessageDispatcher.Ins.Subscribe<float, bool>(MessageCode.msg_add_camera_zoom, OnAddCameraZoom);
 			arrowsGameCameraController.BindCamera(gameCamera);
+			m_WrongClickPostProcess = gameCamera.GetComponent<ArrowsWrongClickPostProcess>();
+			if (m_WrongClickPostProcess == null) m_WrongClickPostProcess = gameCamera.gameObject.AddComponent<ArrowsWrongClickPostProcess>();
+			MessageDispatcher.Ins.Subscribe(MessageCode.msg_on_wrong_arrow_click, OnWrongArrowClick);
 			GameApp.Ins.LoopManager.AddLoop(CheckPointerClick);
+		}
+		private void OnWrongArrowClick()
+		{
+			m_WrongClickPostProcess?.Flash();
 		}
 		private void OnAddCameraZoom(float zoomStep, bool isQuick)
 		{
@@ -67,6 +75,7 @@ namespace Game.Modules.GModuleArrows
 			// MessageDispatcher.Ins.Dispatch(MessageCode.msg_close_gameplay_panel);
 			MessageDispatcher.Ins.Unsubscribe<LevelStatus>(MessageCode.msg_on_level_status_change, OnLevelStatusChange);
 			MessageDispatcher.Ins.Unsubscribe<float, bool>(MessageCode.msg_set_camera_zoom, OnSetCameraZoom);
+			MessageDispatcher.Ins.Unsubscribe(MessageCode.msg_on_wrong_arrow_click, OnWrongArrowClick);
 			GameApp.Ins.LoopManager.RemoveLoop(CheckPointerClick);
 		}
 		private void CheckPointerClick()

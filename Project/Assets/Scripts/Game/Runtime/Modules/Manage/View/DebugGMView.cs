@@ -9,6 +9,7 @@ using Framework.Runtime.Modules.UI.PrefabBind;
 using Framework.Runtime.UI;
 using Game.Modules.GModuleArrows;
 using Game.Modules.GModuleManage;
+using Game.Modules.GModuleInventory;
 namespace Game.Modules
 {
 	public class DebugGMView : View
@@ -110,8 +111,24 @@ namespace Game.Modules
 			ubtnPringIsGameHasAllSolve.AddClick(PrintIsGameHasAllSolveClick);
 			ubtnGameSuccess.AddClick(GameSuccessClick);
 			ubtnJumpLv.AddClick(OnJumpLevelClick);
+			// Phone GM 复用现有输入控件：uifFbId 支持“道具id:数量”，数量输入为空时默认 1。
+			ubtnAddMoney.AddClick(OnAddItemClick);
+			if (UIRoot.IsPhoneUI()) ubtnAddMoney.Text = "增加道具 (ID:数量)";
 
 			UIUtil.RefreshLayoutDelay(rtContent);
+		}
+
+		private void OnAddItemClick()
+		{
+			var raw = uifFbId == null ? string.Empty : uifFbId.text.Trim();
+			var parts = raw.Split(':');
+			int itemId, count;
+			if (parts.Length == 2 && int.TryParse(parts[0], out itemId) && int.TryParse(parts[1], out count)) { }
+			else if (!int.TryParse(raw, out itemId)) return;
+			else if (uifFbLevelId == null || !int.TryParse(uifFbLevelId.text, out count)) count = 1;
+			if (itemId <= 0 || count <= 0) return;
+			var operation = GameInventoryDataHandler.Ins.StoreItem(itemId, count);
+			Log.Info(operation.operateCount > 0 ? $"增加道具成功: {itemId} x{operation.operateCount}" : $"增加道具失败: {operation.errMessage}");
 		}
 
 		private void OnJumpLevelClick()

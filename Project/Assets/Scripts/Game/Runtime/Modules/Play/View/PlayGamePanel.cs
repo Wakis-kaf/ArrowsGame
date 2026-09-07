@@ -13,59 +13,70 @@ using Framework.Runtime;
 using UnityEngine.Rendering;
 using DG.Tweening;
 using Game.Modules.GModuleManage;
+using Game.Modules.GModuleProgression;
 namespace Game.Modules
 {
     public class PlayGamePanel : Panel
     {
         #region PrefabBinder 自动引用区域 开始
-        private UnityEngine.RectTransform rtBottomArea;
-        private UnityEngine.RectTransform rtTopArea;
-        private Framework.Runtime.UI.UButton ubtnMinus;
-        private Framework.Runtime.UI.UButton ubtnPlus;
-        private Framework.Runtime.UI.UProgressBar upbZoom;
-        private Framework.Runtime.UI.UProgressBar upbProgress;
-        private Framework.Runtime.UI.UTMPText utmpTxtDif;
-        private Framework.Runtime.UI.UTMPText utmpTxtLevel;
-        private Framework.Runtime.UI.UList ulistHearts;
-        private Framework.Runtime.UI.UButton ubtnTip;
-        private Framework.Runtime.UI.UButton ubtnRestart;
-        private Framework.Runtime.UI.UButton ubtnReturn;
-        private Framework.Runtime.UI.USprite uspBg;
+		private Framework.Runtime.UI.UTMPText utmpTxtTime;
+		private Framework.Runtime.UI.UButton ubtnClear;
+		private Framework.Runtime.UI.UButton ubtnTime;
+		private Framework.Runtime.UI.UTMPText utmpTxtHearts;
+		private Framework.Runtime.UI.UTMPText utmpTxtCoins;
+		private UnityEngine.RectTransform rtBottomArea;
+		private UnityEngine.RectTransform rtTopArea;
+		private Framework.Runtime.UI.UButton ubtnMinus;
+		private Framework.Runtime.UI.UButton ubtnPlus;
+		private Framework.Runtime.UI.UProgressBar upbZoom;
+		private Framework.Runtime.UI.UProgressBar upbProgress;
+		private Framework.Runtime.UI.UTMPText utmpTxtDif;
+		private Framework.Runtime.UI.UTMPText utmpTxtLevel;
+		private Framework.Runtime.UI.UList ulistHearts;
+		private Framework.Runtime.UI.UButton ubtnTip;
+		private Framework.Runtime.UI.UButton ubtnRestart;
+		private Framework.Runtime.UI.UButton ubtnReturn;
+		private Framework.Runtime.UI.USprite uspBg;
 
-        #endregion PrefabBinder 自动引用区域 结束
+		#endregion PrefabBinder 自动引用区域 结束
 
         protected override void AutoExtractPrefabBinderComponent(PrefabBinder prefabBinder)
         {
-            this.rtBottomArea = prefabBinder.GetObj<UnityEngine.RectTransform>("rtBottomArea");
-            this.rtTopArea = prefabBinder.GetObj<UnityEngine.RectTransform>("rtTopArea");
-            this.ubtnMinus = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnMinus");
-            this.ubtnPlus = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnPlus");
-            this.upbZoom = prefabBinder.GetObj<Framework.Runtime.UI.UProgressBar>("upbZoom");
-            this.upbProgress = prefabBinder.GetObj<Framework.Runtime.UI.UProgressBar>("upbProgress");
-            this.utmpTxtDif = prefabBinder.GetObj<Framework.Runtime.UI.UTMPText>("utmpTxtDif");
-            this.utmpTxtLevel = prefabBinder.GetObj<Framework.Runtime.UI.UTMPText>("utmpTxtLevel");
-            this.ulistHearts = prefabBinder.GetObj<Framework.Runtime.UI.UList>("ulistHearts");
-            this.ubtnTip = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnTip");
-            this.ubtnRestart = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnRestart");
-            this.ubtnReturn = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnReturn");
-            this.uspBg = prefabBinder.GetObj<Framework.Runtime.UI.USprite>("uspBg");
+			this.utmpTxtTime = prefabBinder.GetObj<Framework.Runtime.UI.UTMPText>("utmpTxtTime");
+			this.ubtnClear = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnClear");
+			this.ubtnTime = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnTime");
+			this.utmpTxtHearts = prefabBinder.GetObj<Framework.Runtime.UI.UTMPText>("utmpTxtHearts");
+			this.utmpTxtCoins = prefabBinder.GetObj<Framework.Runtime.UI.UTMPText>("utmpTxtCoins");
+			this.rtBottomArea = prefabBinder.GetObj<UnityEngine.RectTransform>("rtBottomArea");
+			this.rtTopArea = prefabBinder.GetObj<UnityEngine.RectTransform>("rtTopArea");
+			this.ubtnMinus = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnMinus");
+			this.ubtnPlus = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnPlus");
+			this.upbZoom = prefabBinder.GetObj<Framework.Runtime.UI.UProgressBar>("upbZoom");
+			this.upbProgress = prefabBinder.GetObj<Framework.Runtime.UI.UProgressBar>("upbProgress");
+			this.utmpTxtDif = prefabBinder.GetObj<Framework.Runtime.UI.UTMPText>("utmpTxtDif");
+			this.utmpTxtLevel = prefabBinder.GetObj<Framework.Runtime.UI.UTMPText>("utmpTxtLevel");
+			this.ulistHearts = prefabBinder.GetObj<Framework.Runtime.UI.UList>("ulistHearts");
+			this.ubtnTip = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnTip");
+			this.ubtnRestart = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnRestart");
+			this.ubtnReturn = prefabBinder.GetObj<Framework.Runtime.UI.UButton>("ubtnReturn");
+			this.uspBg = prefabBinder.GetObj<Framework.Runtime.UI.USprite>("uspBg");
 
-        }
+		}
         private bool m_IsZoomDragingChange = false;
         private bool m_IsZoomDraged = false;
         private bool m_IsZoomOutChanged = false;
         public override int GetOpenLayer(int externalLayer)
         {
-            return externalLayer;
+			return externalLayer;
 
-        }
+		}
 
         public override string GetAssetLink(string outAssetLink)
         {
-            string assetPath = "Assets/AddressableResources/UI/Play/Prefabs/PlayGamePanel.prefab";
-            return AssetPathEncoder.EncodeEnvAssetLink(assetPath, AssetType.PrefabAsset);
+			string assetPath = "Assets/AddressableResources/UI/Play/Prefabs/PlayGamePanel.prefab";
+			return AssetPathEncoder.EncodeEnvAssetLink(assetPath, AssetType.PrefabAsset);
 
-        }
+		}
         /// <summary>
         /// 子类重写，构造函数中调用
         /// </summary>
@@ -87,6 +98,8 @@ namespace Game.Modules
             upbZoom.AddEndDraged(OnZoomProgressEndDrag);
             ubtnMinus.AddClick(OnZoomMinusClick);
             ubtnPlus.AddClick(OnZoomPlusClick);
+            ubtnTime.AddClick(OnTimeClick);
+            ubtnClear.AddClick(() => OnPropClick(GameProgressionConstant.PropClear, LevelVO.Current.TryUseClearProp));
 
         }
 
@@ -113,14 +126,19 @@ namespace Game.Modules
             SubscribeEvent(MessageCode.msg_on_game_restart, OnGameRestart);
             SubscribeEvent(MessageCode.msg_on_game_start, OnGameStart);
             SubscribeEvent(MessageCode.msg_on_arrowLineChanged, SyncArrowNumProgressAnim);
+            SubscribeEvent(MessageCode.msg_on_wrong_arrow_click, RefreshProgressionView);
             SubscribeEvent<float, float>(MessageCode.msg_on_cameraZoom_changed, OnCamerZoomChanged);
+            SubscribeEvent(MessageCode.msg_on_progression_changed, RefreshProgressionView);
+            SubscribeEvent<int>(MessageCode.msg_on_progression_rewarded, OnProgressionRewarded);
         }
 
 
 
         private void OnGameStart()
         {
+            m_RemainingTime = LevelVO.Current.LevelInfo.levelCfg.timeLimitSeconds;
             ulistHearts.SetDataSources(LevelVO.Current.GetLevelHeartInfoList());
+            RefreshProgressionView();
         }
 
         private void OnGameRestart()
@@ -130,18 +148,19 @@ namespace Game.Modules
 
         private void OnTipClick()
         {
-
-            var tipPoint = LevelVO.Current.GetTipPoint();
-            if (tipPoint == null)
-            {
-                Log.Error("当前棋盘无解");
-            }
-            else
-            {
-                Log.Info($"当前棋盘有解,点击{tipPoint.id}");
-                var pointSceneUnit = LevelVO.Current.GetPointSceneUnitById(tipPoint.id);
-                LevelVO.Current.CheckPointTrigger(pointSceneUnit);
-            }
+            OnPropClick(GameProgressionConstant.PropTip, LevelVO.Current.TryUseHintProp);
+        }
+        private float m_RemainingTime;
+        private void OnTimeClick()
+        {
+            OnPropClick(GameProgressionConstant.PropTime, () => { m_RemainingTime += GameProgressionConstant.TimeExtensionSeconds; return true; });
+        }
+        private void Update()
+        {
+            if (LevelVO.Current == null || !LevelVO.Current.IsPlaying() || m_RemainingTime <= 0f) return;
+            m_RemainingTime = Mathf.Max(0f, m_RemainingTime - Time.deltaTime);
+            if (utmpTxtTime != null) utmpTxtTime.text = string.Format("{0:D2}:{1:D2}", Mathf.FloorToInt(m_RemainingTime) / 60, Mathf.FloorToInt(m_RemainingTime) % 60);
+            if (m_RemainingTime <= 0f) LevelVO.Current.OnTimeExpired();
         }
 
         private void OnRestartClick()
@@ -157,12 +176,39 @@ namespace Game.Modules
             // StartEntryAnim();
             SyncArrowNumProgress(false);
             UpdateView();
+            RefreshProgressionView();
             // SyncZoom();
             ulistHearts.SetDataSources(LevelVO.Current.GetLevelHeartInfoList());
+            GameApp.Ins.LoopManager.AddLoop(Update);
         }
         private void UpdateView()
         {
             utmpTxtLevel.text = $"第{GameArchive.Main.LevelArchive.GetCurLevelId()}关";
+        }
+        private void OnPropClick(int propId, Func<bool> useProp)
+        {
+            if (GameProgressionService.TryConsumeProp(propId))
+            {
+                if (!useProp()) GameProgressionService.AddProp(propId, 1);
+                RefreshProgressionView();
+                return;
+            }
+            GameProgressionService.AcquireProp(propId, acquired => { if (acquired) OnPropClick(propId, useProp); RefreshProgressionView(); });
+        }
+        private void RefreshProgressionView()
+        {
+            if (GameArchive.Main == null || LevelVO.Current == null) return;
+            var isVisible = GameProgressionService.IsPropBarVisible(GameArchive.Main.LevelArchive.GetCurLevelId());
+            ubtnTip.gameObject.SetActive(isVisible);
+            ubtnTime.gameObject.SetActive(isVisible);
+            ubtnClear.gameObject.SetActive(isVisible);
+            ubtnTip.Text = GameProgressionService.GetPropCount(GameProgressionConstant.PropTip).ToString();
+            ubtnTime.Text = $"{GameProgressionService.GetPropCount(GameProgressionConstant.PropTime)}";
+            ubtnClear.Text = $"{GameProgressionService.GetPropCount(GameProgressionConstant.PropClear)}";
+        }
+        private void OnProgressionRewarded(int levelId)
+        {
+            RefreshProgressionView();
         }
         private void SyncArrowNumProgressAnim()
         {
@@ -242,6 +288,7 @@ namespace Game.Modules
         /// </summary>
         protected override void OnHide()
         {
+            GameApp.Ins.LoopManager.RemoveLoop(Update);
             SyncArrowNumProgress(false);
         }
         /// <summary>
@@ -290,6 +337,7 @@ namespace Game.Modules
         // }
     }
 }
+
 
 
 

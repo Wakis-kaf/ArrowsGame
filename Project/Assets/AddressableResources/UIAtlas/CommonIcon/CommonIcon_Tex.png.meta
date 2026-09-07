@@ -139,8 +139,8 @@ TextureImporter:
       name: Flag
       rect:
         serializedVersion: 2
-        x: 0
-        y: 168
+        x: 198
+        y: 122
         width: 64
         height: 64
       alignment: 0
@@ -157,11 +157,32 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand
+      name: prop_revoke
       rect:
         serializedVersion: 2
         x: 0
-        y: 234
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be54f1818b3d12a0800000000000000
+      internalID: -6765185637823521096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 184
         width: 64
         height: 64
       alignment: 0
@@ -178,11 +199,53 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Redo
+      name: prop_time
       rect:
         serializedVersion: 2
         x: 0
-        y: 762
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a726b4ed26eb19890800000000000000
+      internalID: -7452966576475905414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_clean
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d648dc7c1d4cff6d0800000000000000
+      internalID: -2954426425252412307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redo
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 382
         width: 64
         height: 64
       alignment: 0
@@ -199,11 +262,32 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: prop_box
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 252
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d8702350e468400800000000000000
+      internalID: 326033807252098305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Light_Bulb_On
       rect:
         serializedVersion: 2
-        x: 0
-        y: 498
+        x: 260
+        y: 188
         width: 64
         height: 64
       alignment: 0
@@ -220,11 +304,32 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: prop_coin
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db42ff35b2c0a0fa0800000000000000
+      internalID: -5833836987072699203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Settings_Center12
       rect:
         serializedVersion: 2
         x: 0
-        y: 960
+        y: 58
         width: 64
         height: 64
       alignment: 0
@@ -241,11 +346,53 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Settings
+      name: prop_tip
       rect:
         serializedVersion: 2
         x: 0
-        y: 828
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e5794654184f710800000000000000
+      internalID: 1726146692230110773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_heart
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c050d5804c6f5d680800000000000000
+      internalID: -8730800980773501684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -265,8 +412,8 @@ TextureImporter:
       name: Minus
       rect:
         serializedVersion: 2
-        x: 0
-        y: 564
+        x: 130
+        y: 184
         width: 64
         height: 64
       alignment: 0
@@ -283,11 +430,32 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: prop_achievement
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 254
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7884854fa0e3893d0800000000000000
+      internalID: -3199739318476715897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Plus
       rect:
         serializedVersion: 2
-        x: 0
-        y: 696
+        x: 390
+        y: 316
         width: 64
         height: 64
       alignment: 0
@@ -307,8 +475,8 @@ TextureImporter:
       name: Settings_Center
       rect:
         serializedVersion: 2
-        x: 0
-        y: 894
+        x: 66
+        y: 58
         width: 64
         height: 64
       alignment: 0
@@ -328,8 +496,8 @@ TextureImporter:
       name: Home
       rect:
         serializedVersion: 2
-        x: 0
-        y: 432
+        x: 132
+        y: 118
         width: 64
         height: 64
       alignment: 0
@@ -349,8 +517,8 @@ TextureImporter:
       name: Heart_Outline
       rect:
         serializedVersion: 2
-        x: 0
-        y: 366
+        x: 132
+        y: 52
         width: 64
         height: 64
       alignment: 0
@@ -370,8 +538,8 @@ TextureImporter:
       name: Heart
       rect:
         serializedVersion: 2
-        x: 0
-        y: 300
+        x: 326
+        y: 184
         width: 64
         height: 64
       alignment: 0
@@ -391,8 +559,8 @@ TextureImporter:
       name: Play
       rect:
         serializedVersion: 2
-        x: 0
-        y: 630
+        x: 390
+        y: 250
         width: 64
         height: 64
       alignment: 0
@@ -432,6 +600,14 @@ TextureImporter:
       Settings: 2308424125875831988
       Settings_Center: -23942234499609474
       Settings_Center12: -4461760763684046642
+      prop_achievement: -3199739318476715897
+      prop_box: 326033807252098305
+      prop_clean: -2954426425252412307
+      prop_coin: -5833836987072699203
+      prop_heart: -8730800980773501684
+      prop_revoke: -6765185637823521096
+      prop_time: -7452966576475905414
+      prop_tip: 1726146692230110773
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

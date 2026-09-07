@@ -7,6 +7,36 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Game.Modules.GModuleManage
 {
+    public class InitItemsItem
+    {
+        public int initItemId;
+        public int initItemCount;
+    }
+    public class GameConfigItem
+    {
+
+        public int upGoldNeedStart;
+
+        public int enhanceLuckyStart;
+
+        public int healthMax;
+
+        public float readyTime;
+
+        public int mainPowerCost;
+        public int propUnLockLv;
+
+        public float playerMoveSpeed;
+
+        public float mainBgmStatrVolume;
+
+        public List<InitItemsItem> initItems;
+    }
+    public class CfgGameTable
+    {
+
+        public List<GameConfigItem> gameConfig;
+    }
     public class GameManageDataHandler : GameConfigDataHandler
     {
 
@@ -29,6 +59,7 @@ namespace Game.Modules.GModuleManage
         }
 
         private CfgThemeMap m_ThemeMap;
+
         public CfgThemeMap LoadThemeMap()
         {
             if (m_ThemeMap != null) return m_ThemeMap;
@@ -39,6 +70,22 @@ namespace Game.Modules.GModuleManage
             }
             Log.Error("读取 cfg_themes 失败");
             return null;
+        }
+        private CfgGameTable m_GameTable;
+        public CfgGameTable GetGameCfgTable()
+        {
+            if (m_GameTable != null) return m_GameTable;
+            if (TryReadConfig<CfgGameTable>("cfg_game", out m_GameTable))
+            {
+                Log.Info("读取 cfg_game 成功");
+                return m_GameTable;
+            }
+            Log.Error("读取 cfg_game 失败");
+            return null;
+        }
+        public GameConfigItem GetGameMainCfg()
+        {
+            return GetGameCfgTable().gameConfig[0];
         }
     }
 }

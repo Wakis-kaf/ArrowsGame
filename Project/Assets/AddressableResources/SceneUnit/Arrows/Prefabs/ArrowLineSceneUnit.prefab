@@ -155,8 +155,8 @@ LineRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -819947115
-  m_SortingLayer: 1
+  m_SortingLayerID: -1228329263
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
@@ -291,8 +291,8 @@ LineRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -819947115
-  m_SortingLayer: 1
+  m_SortingLayerID: -1228329263
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
@@ -402,3 +402,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UnitModelGO: {fileID: 1402488153923376167}
+  CornerRadius: 0.25
+  CornerSubdivisions: 4
